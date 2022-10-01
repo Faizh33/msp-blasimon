@@ -1,0 +1,36 @@
+/* Header */
+.header {
+    background: rgb(99, 239, 99);
+}
+
+.logo {
+    height: 15%;
+    width: 15%;
+}
+
+.msp-header {
+    font-size: 3.5vw;;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact-header {
+    color: white;
+    font-size: 1.6vw;
+}
+
+#phone:link {
+    text-decoration: none;
+    color: white;
+}
+
+#phone:hover {
+    text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+    font-weight: bold;
+}
+
