@@ -1,3 +1,7 @@
+body {
+    font-size: 16px;
+}
+
 /* Header */
 .header {
     background: rgb(99, 239, 99);
@@ -32,5 +36,28 @@
 /* Navbar */
 .navbar {
     font-weight: bold;
+}
+
+/* Main */
+.title, .title2, .p-days {
+    text-decoration: underline;
+    padding-top: 2%;
+}
+
+.title {
+    font-size: 1.9em;
+    color: rgb(50, 130, 60);
+}
+
+.title2 {
+    font-size: 1.7em;
+    padding-left: 5%;
+    color:rgb(72, 190, 88);
+}
+
+.subtitle {
+    text-decoration: underline dotted;
+    padding-left: 10%;
+    color:rgb(93, 240, 112);
 }
 
