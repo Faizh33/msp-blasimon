@@ -1,6 +1,8 @@
 body {
     font-size: 16px;
     background: rgb(197, 245, 197);
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 /* Header */
@@ -45,9 +47,14 @@ body {
     padding-top: 2%;
 }
 
+.title, .title2 {
+    padding-bottom: 1%;
+}
+
 .title {
     font-size: 1.9em;
     color: rgb(50, 130, 60);
+    margin-left: 2%;
 }
 
 .title2 {
@@ -60,8 +67,4 @@ body {
     text-decoration: underline dotted;
     padding-left: 10%;
     color:rgb(93, 240, 112);
-}
-
-.p-text {
-    margin: 5%;
 }
