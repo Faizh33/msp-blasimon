@@ -1,5 +1,6 @@
 body {
     font-size: 16px;
+    background: rgb(197, 245, 197);
 }
 
 /* Header */
@@ -61,3 +62,6 @@ body {
     color:rgb(93, 240, 112);
 }
 
+.p-text {
+    margin: 5%;
+}
