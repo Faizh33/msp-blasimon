@@ -1,6 +1,9 @@
 body {
     font-size: 16px;
-    background: rgb(197, 245, 197);
+    background: rgb(226, 243, 226);
+}
+
+main {
     margin-left: 5%;
     margin-right: 5%;
 }
