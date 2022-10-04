@@ -1,6 +1,7 @@
 body {
-    font-size: 16px;
+    font-size: 18px;
     background: rgb(226, 243, 226);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main {
@@ -71,6 +72,11 @@ main {
     color:rgb(93, 240, 112);
 }
 
+.underline-text {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 /* Formulaire */
 .consult-form {
     display: flex;
@@ -134,4 +140,21 @@ input[type='checkbox']:checked {
 
 .required-field-text {
     color: red;
+}
+
+/*Carte Google Maps*/
+.map-responsive {
+    margin-top: 3%;
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
