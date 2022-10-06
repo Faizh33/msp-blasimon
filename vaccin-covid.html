@@ -14,8 +14,8 @@
     <header class="container-fluid header">
         <div class="row d-flex justify-content-center align-items-center">
             <img src="logo.jpg" alt="logo" class="logo col-3"/>
-            <p class="msp-header col-7"><strong>Maison de Santé Pluri-disciplinaire de Blasimon</strong></p>
-            <div class="col-2 d-none d-md-block">
+            <p class="msp-header col-7"><strong>Vaccination COVID</strong></p>
+            <div class="col-2 d-2dosesne d-md-block">
                 <p class="contact-header">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
                         <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
@@ -65,6 +65,96 @@
             </ul>
     </nav>
     
+    <main>
+        <h1 class="title">Inscription à la vaccination COVID</h1>
+        <p>
+            Pour prendre <strong>un RDV de consultation</strong> avec un médecin, cliquez
+            <a href="consult.html">ici</a>.</p>
+        <form action="" method="post" class="consult-form">
+            <p class="form-text">Sur cette page vous pouvez vous inscrire pour la vaccination, votre demande sera prise en compte. A l'inverse des centres de vaccination nous vaccinons par ordre de priorité et non pas par ordre de la demande. Nous privilégions la vaccination Moderna pour les plus de 30 ans et le Pfizer pour les moins de 30 ans. <br>La secrétaire vous contactera quelques jours avant votre vaccination. N'oubliez pas de valider à la fin de la page.</p>
+            <p class="required-field-text"><i>* Champs obligatoire</i></p>
+            <div class="form-box">
+                <label for="name" class="label">Nom et prénom *</label>
+                <input type="text" id="name" placeholder="Inscrivez votre nom et prénom" name="name" class="input" required>
+            </div>
+            <div class="form-box">
+                <label for="age" class="label">Âge *</label>
+                <input type="text" id="age" placeholder="Inscrivez votre âge" name="age" class="input" required>
+            </div>
+            <div class="form-box">
+                <label for="tel" class="label">Téléphone (portable de préférence) *</label>
+                <input type="tel" id="tel" placeholder="Inscrivez votre numéro de téléphone" name="tel" class="input" required>
+            </div>
+            <div class="form-box">
+                <fieldset>
+                    <legend>Avez-vous été vacciné? *</legend>
+                    <div>
+                      <input type="checkbox" id="yes" name="yes" required>
+                      <label for="yes">Oui</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="no" name="no" required>
+                        <label for="no">Non</label>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="form-box">
+                <fieldset>
+                    <legend>Avec quel vaccin? *</legend>
+                    <div>
+                        <input type="checkbox" id="pfizer" name="pfizer" required>
+                        <label for="pfizer">Pfizer </label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="moderna" name="moderna" required>
+                        <label for="moderna">Moderna</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="astra" name="astra" required>
+                        <label for="astra">Astra Zeneca</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="janssen" name="janssen" required>
+                        <label for="janssen">Janssen</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="nsp" name="nsp" required>
+                        <label for="nsp">Je ne sais pas</label>
+                    </div>
+                </fieldset>          
+            </div>
+            <div class="form-box">
+                <fieldset>
+                    <legend>Combien de doses?</legend>
+                    <div>
+                        <input type="checkbox" id="1dose" name="1dose">
+                        <label for="1dose">1 dose</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="2doses" name="2doses">
+                        <label for="2doses">2 doses</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="3doses" name="3doses">
+                        <label for="3doses">3 doses</label>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="form-box">
+                <label for="date-choice" class="label">Date de votre dernière vaccination *</label>
+                <input type="date" id="date-choice" name="date-choice" class="input" required>
+            </div>
+            <div class="form-box">
+                <label for="message" class="label">Si vous avez un message à laisser...</label>
+                <textarea rows="5" cols="50" id="message" name="message"> </textarea>
+            </div>
+            <div class="form-buttons">
+                <input type="submit" value="Envoyer" class="form-button">    
+                <input type="reset" value="Réinitialiser le formulaire" class="form-button">
+            </div>
+        </form>
+    </main>
+
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
 </body>
