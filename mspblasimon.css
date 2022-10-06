@@ -91,6 +91,38 @@ main {
     font-weight: bold;
 }
 
+.link-freepik {
+    font-size: 0.4em;
+    opacity: 0.33;
+    font-style: italic;
+    display: inline-block;
+}
+
+/*article page liens*/
+.link-article {
+    border: 2px solid rgb(62, 187, 79);
+    margin: 1vw;
+    width: 260px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.img-article {
+    width: 100%;
+    height: 200px;
+}
+
+.article-text {
+    text-align: center;
+}
+
+div.article-text > p > a {
+    color: black;
+}
+
 /* Formulaire */
 .consult-form {
     display: flex;
