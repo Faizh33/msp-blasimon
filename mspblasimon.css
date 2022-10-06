@@ -67,9 +67,23 @@ main {
 }
 
 .subtitle {
+    font-size: 1.4em;
     text-decoration: underline dotted;
     padding-left: 10%;
     color:rgb(93, 240, 112);
+}
+
+.subtitle2 {
+    font-size: 1.2em;
+    text-decoration: underline;
+    padding-left: 15%;
+    color: rgb(72, 190, 88);
+}
+
+.subtitle3 {
+    text-decoration: underline;
+    padding-left: 18%;
+    color: rgb(50, 130, 60);
 }
 
 .underline-text {
