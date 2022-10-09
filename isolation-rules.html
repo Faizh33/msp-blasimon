@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSP de Blasimon</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="mspblasimon.css" />
+</head>
+
+<body>
+  <!-- En-tête du site -->
+    <header class="container-fluid header">
+        <div class="row d-flex justify-content-center align-items-center">
+            <img src="logo.jpg" alt="logo" class="logo col-3"/>
+            <p class="msp-header col-7"><strong>Les Règles de l'isolement</strong></p>
+            <div class="col-2 d-none d-md-block">
+                <p class="contact-header">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                    </svg> 
+                    <a href="tel:+33556715213" id="phone">05.56.71.52.13</a>
+                </p>
+                <p class="contact-header">1 bis rue du Vivier <br>33540 BLASIMON</p>
+            </div>
+        </div>
+    </header>
+  <!-- Barre de navigation -->
+    <nav class="navbar navbar-expand-md navbar-light bg-success">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="/mspblasimon.html">Accueil</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/mspblasimon.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">MSP de Blasimon</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="/medecins.html">Médecins</a>
+                        <a class="dropdown-item" href="/medgarde.html">Médecin de garde</a>
+                        <a class="dropdown-item" href="/ide.html">Infirmières</a>
+                        <a class="dropdown-item" href="/psy.html">Psychologue</a>
+                        <a class="dropdown-item" href="/kine.html">Kinésithérapeute</a>
+                        <a class="dropdown-item" href="/ostheo.html">Osthéopathe</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" href="/consult.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">Prendre RDV</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="/consult.html">RDV de consultation</a>
+                        <a class="dropdown-item" href="/teleconsult.html">Téléconsultation</a>
+                        <a class="dropdown-item" href="/vaccin-covid.html">Vaccination COVID</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" href="/infos.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">Infos</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="/msp-kezako.html">MSP Kézako?</a>
+                        <a class="dropdown-item" href="/project.html">Projet de Santé</a>
+                        <a class="dropdown-item" href="/news.html">News</a>
+                        <a class="dropdown-item" href="/info-covid.html">Infos COVID</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="/links.html">Liens utiles</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <h1 class="title">Les règles de l'isolement</h1>
+        <ul class="sommaire">
+            <li><a href="#schema-vaccinal-complet">Schéma vaccinal complet</a></li>
+            <li><a href="#schema-vaccinal-incomplet">Personne non vaccinée ou schéma vaccinal incomplet</a></li>
+            <li><a href="#enfant-12-ans">Enfant de moins de 12 ans</a></li>
+            <li><a href="#schema-vaccinal-definition">Qu'est ce qu'un schéma vaccinal complet?</a></li>
+        </ul>
+        <p>Au 2 janvier 2022 les règles d'isolement sont fonctions de votre statut vaccinal, si vous avez un test positif ou si vous êtes cas contact les procédures sont différentes:</p>
+        <h2 class="title2" id="schema-vaccinal-complet">Schéma vaccinal complet</h2>
+        <p>Rappel réalisé conformément aux exigences du pass sanitaire</p>
+        <h3 class="subtitle">Test positif</h3>
+        <p>
+            <b>L’isolement est désormais d’une durée de 7 jours (pleins) après la date du début des signes ou la date du prélèvement du test positif.</b>
+        </p>
+        <p>
+            Toutefois, au bout de 5 jours, la personne positive peut sortir d’isolement à deux conditions :
+        </p>
+        <ul>
+            <li>elle effectue un test antigénique ou PCR et celui-ci est négatif;</li>
+            <li>elle n’a plus de signes cliniques d’infection depuis 48h.</li>
+        </ul>
+        <p>
+            <b>Si le test réalisé est positif ou si la personne ne réalise pas de test, son isolement est maintenu à 7 jours. Elle ne réalise pas un second test à J7.<br>Il n'est plus nécessaire d'effectuer un test PCR si le test Antigénique est positif.</b>
+        </p>
+        <h3 class="subtitle">Cas contact</h3>
+        <p><b>Il n’y a plus de quarantaine</b>, néanmoins les personnes cas contact doivent :</p>
+        <ul>
+            <li>appliquer de manière stricte les mesures barrières, et notamment le port du masque en intérieur et en extérieur</li>
+            <li>limiter leurs contacts</li>
+            <li>éviter tout contact avec des personnes à risque de forme grave de Covid</li>
+            <li>télétravailler dans la mesure du possible.</li>
+        </ul>
+        <p>
+            En outre, les personnes cas contacts doivent réaliser un test Antigénique ou PCR dès qu’elles apprennent qu’elles sont cas contacts, puis effectuer des autotests à J2 et J4 après le dernier contact avec la personne positive.
+        </p>
+        <p>
+            <b>En cas d’autotest positif, il convient de confirmer le résultat par un test Antigénique ou PCR.</b>
+        </p>
+        <p>
+            <b>Si le test est positif, la personne devient un cas et démarre un isolement.</b>
+        </p>
+        <p>
+            Les autotests dont la réalisation est prévue dans le schéma de dépistage des personnes cas contact (pour les personnes ayant un schéma vaccinal complet et les enfants de moins de 12 ans) seront pris en charge par l’assurance maladie et délivrés gratuitement en officine pharmaceutique après la réalisation du test à J0.
+        </p>
+        <h2 class="title2" id="schema-vaccinal-incomplet">Personne non vaccinée ou schéma vaccinal incomplet</h2>
+        <h3 class="subtitle">Test positif</h3>
+        <p>
+            L’isolement est de 10 jours (pleins) après la date du début des signes ou la date du prélèvement du test positif. Toutefois, au bout de 7 jours, la personne positive peut sortir d’isolement à deux conditions:
+        </p>
+        <ul>
+            <li>elle effectue un test antigénique ou RTPCR et celui-ci est négatif</li>
+            <li>elle n’a plus de signes cliniques d’infection depuis 48h</li>
+        </ul>
+        <p>
+            <b>Si le test est positif ou si la personne ne réalise pas de test, l’isolement est de 10 jours.</b>
+        </p>
+        <h3 class="subtitle">Cas contact</h3>
+        <p>
+            <b>Ces personnes doivent respecter un isolement d’une durée de 7 jours (pleins) à compter de la date du dernier contact.</b>
+        </p>
+        <p>
+            Pour sortir de quarantaine ces personnes doivent réaliser un test antigénique ou PCR et avoir un résultat négatif.
+        </p>
+        <p>
+            <b>Si le test est positif, la personne devient un cas et démarre un isolement.</b>
+        </p>
+        <h2 class="title2" id="enfant-12-ans">Enfant de moins de 12 ans</h2>
+        <p>
+            Pour les enfants de moins de 12 ans cas contact, dans le milieu scolaire, le protocole de l’éducation nationale s’applique. Cela se traduit par la réalisation d’un test antigénique ou PCR pour tous les élèves de la classe dès l’apparition d’un cas au sein de la classe, et le retour en classe sur présentation du résultat négatif.
+        </p>
+        <p>
+            En outre, les élèves réalisent des autotests à J2 et J4. Les parents doivent présenter une attestation sur l’honneur de réalisation de ces tests pour permettre le maintien en classe de l’élève.
+        </p>
+        <p>
+            Les autotests dont la réalisation est prévue dans le schéma de dépistage des personnes cas contact (pour les personnes ayant un schéma vaccinal complet et les enfants de moins de 12 ans) seront pris en charge par l’assurance maladie et délivrés gratuitement en officine pharmaceutique après la réalisation du test à J0.
+        </p>
+        <h2 class="title2" id="schema-vaccinal-definition">Qu'est ce qu'un schéma vaccinal complet?</h2>
+        <p>
+            C’est une mention utilisée par tous les nouveaux protocoles sanitaires : pour pouvoir s’isoler moins longtemps qu’un non-vacciné si on est testé positif, ou pour pouvoir ne pas s’isoler du tout si on est cas contact, une personne doit avoir un « schéma vaccinal complet ».
+        </p>
+        <p>
+            Mais que veut dire ce terme ? Cela renvoie à un processus vaccinal à jour : vous devez avoir reçu toutes les doses en temps et en heure pour profiter de ces avantages.
+        </p>
+        <h3 class="subtitle">Deux ou trois doses</h3>
+        <p>
+            Jusqu’au 15 janvier, le schéma vaccinal complet correspond à deux doses ; sauf pour les plus de 65 ans qui, depuis le 15 décembre, doivent avoir fait leur rappel (trois doses) au maximum sept mois après leur deuxième dose. Cette même règle des sept mois pour la troisième dose s’appliquera à partir du 15 janvier à toutes les personnes de plus de 18 ans.
+        </p>
+        <p>
+            A partir du 15 février, les délais changent. Il faudra effectuer son rappel quatre mois et non plus sept après sa deuxième dose pour avoir un schéma vaccinal complet.
+        </p>
+        <p>
+            Pour plus d'information suivez ce <a href="https://www.ameli.fr/gironde/assure/covid-19/symptomes-gestes-barrieres-cas-contact-et-isolement/isolement-duree-precautions-regles-d-hygiene" target="_blank">lien sur ameli</a>
+        </p>
+    </main>
