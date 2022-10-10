@@ -4,11 +4,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-main {
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
 /* Header */
 .header {
     background: rgb(103, 241, 103);
@@ -39,14 +34,32 @@ main {
     text-decoration: underline;
 }
 
+
 /* Navbar */
 .navbar {
-    font-weight: bold;
+    font-weight: 800;
 }
 
+
 /* Main */
-.title, .title2, .p-days {
+#main-content, #aside-content {
+    padding: 4%;
+}
+
+#main-content {
+    padding-left: 10%;
+}
+
+#aside-content {
+    padding-right: 10%;
+}
+
+.title, .title2, .subtitle, .subtitle2, .subtitle2, .subtitle3, .p-days, .underline-text {
+    font-weight: bold;
     text-decoration: underline;
+}
+
+.title2, .p-days {
     padding-top: 2%;
 }
 
@@ -55,49 +68,73 @@ main {
 }
 
 .title {
-    font-size: 1.9em;
+    font-size: 1.8em;
     color: rgb(50, 130, 60);
     margin-left: 2%;
 }
 
 .title2 {
-    font-size: 1.7em;
+    font-size: 1.6em;
     padding-left: 5%;
     color:rgb(72, 190, 88);
 }
 
 .subtitle {
     font-size: 1.4em;
-    text-decoration: underline;
     padding-left: 8%;
     color:rgb(50, 130, 60);
 }
 
 .subtitle2 {
     font-size: 1.2em;
-    text-decoration: underline;
     padding-left: 11%;
     color: rgb(72, 190, 88);
 }
 
 .subtitle3 {
-    text-decoration: underline;
     padding-left: 14%;
     color: rgb(26, 70, 32);
 }
 
-.underline-text {
-    text-decoration: underline;
+.aside-article {
+    border: 1px solid;
+    border-radius: 0.625em 6.25em / 7.5em;
+    margin-bottom: 2vw;
+}
+
+.aside-article-content {
+    padding: 10%;
+    text-align: center;
+}
+
+.aside-title {
+    font-size: 1.2em;
     font-weight: bold;
 }
 
+.aside-button {
+    align-items: center;
+    border-radius: 10px 100px / 120px;
+}
+
+button.aside-button > a {
+    color: black;
+}
+
+
+/* sommaire */
 .sommaire {
     border: 2px solid rgb(26, 70, 32);
     width: 500px;
-    padding: 3vw;
+    padding: 2%;
+    font-size: 0.8em;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
-ul.sommaire > li > a {
+div.sommaire  ul  li  a {
     color: black;
 }
 
@@ -122,7 +159,7 @@ thead th:nth-child(2) {
   
 th, td {
     padding: 0.5vw;
-  }
+}
 
 /*article page liens*/
 .link-article {
