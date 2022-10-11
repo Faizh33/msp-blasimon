@@ -67,95 +67,129 @@
         </div>
     </nav>
 <!-- Contenu principal de la page -->
-    <main>
-        <h1 class="title">Inscription à la vaccination COVID</h1>
-        <p>
-            Pour prendre <strong>un RDV de consultation</strong> avec un médecin, cliquez
-            <a href="consult.html">ici</a>.</p>
-        <form action="" method="post" class="consult-form">
-            <p class="form-text">Sur cette page vous pouvez vous inscrire pour la vaccination, votre demande sera prise en compte. A l'inverse des centres de vaccination nous vaccinons par ordre de priorité et non pas par ordre de la demande. Nous privilégions la vaccination Moderna pour les plus de 30 ans et le Pfizer pour les moins de 30 ans. <br>La secrétaire vous contactera quelques jours avant votre vaccination. N'oubliez pas de valider à la fin de la page.</p>
-            <p class="required-field-text"><i>* Champs obligatoire</i></p>
-            <div class="form-box">
-                <label for="name" class="label">Nom et prénom *</label>
-                <input type="text" id="name" placeholder="Inscrivez votre nom et prénom" name="name" class="input" required>
-            </div>
-            <div class="form-box">
-                <label for="age" class="label">Âge *</label>
-                <input type="text" id="age" placeholder="Inscrivez votre âge" name="age" class="input" required>
-            </div>
-            <div class="form-box">
-                <label for="tel" class="label">Téléphone (portable de préférence) *</label>
-                <input type="tel" id="tel" placeholder="Inscrivez votre numéro de téléphone" name="tel" class="input" required>
-            </div>
-            <div class="form-box">
-                <fieldset>
-                    <legend>Avez-vous été vacciné? *</legend>
-                    <div>
-                      <input type="checkbox" id="yes" name="yes" required>
-                      <label for="yes">Oui</label>
+    <div class="container-fluid">
+        <div class="row">
+            <main id="main-content" class="col-lg-8">
+                <h1 class="title">Inscription à la vaccination COVID</h1>
+                <p>
+                    Pour prendre <strong>un RDV de consultation</strong> avec un médecin, cliquez
+                    <a href="consult.html">ici</a>.</p>
+                <form action="" method="post" class="consult-form">
+                    <p class="form-text">Sur cette page vous pouvez vous inscrire pour la vaccination, votre demande sera prise en compte. A l'inverse des centres de vaccination nous vaccinons par ordre de priorité et non pas par ordre de la demande. Nous privilégions la vaccination Moderna pour les plus de 30 ans et le Pfizer pour les moins de 30 ans. <br>La secrétaire vous contactera quelques jours avant votre vaccination. N'oubliez pas de valider à la fin de la page.</p>
+                    <p class="required-field-text"><i>* Champs obligatoire</i></p>
+                    <div class="form-box">
+                        <label for="name" class="label">Nom et prénom *</label>
+                        <input type="text" id="name" placeholder="Inscrivez votre nom et prénom" name="name" class="input" required>
                     </div>
-                    <div>
-                        <input type="checkbox" id="no" name="no" required>
-                        <label for="no">Non</label>
+                    <div class="form-box">
+                        <label for="age" class="label">Âge *</label>
+                        <input type="text" id="age" placeholder="Inscrivez votre âge" name="age" class="input" required>
                     </div>
-                </fieldset>
-            </div>
-            <div class="form-box">
-                <fieldset>
-                    <legend>Avec quel vaccin? *</legend>
-                    <div>
-                        <input type="checkbox" id="pfizer" name="pfizer" required>
-                        <label for="pfizer">Pfizer </label>
+                    <div class="form-box">
+                        <label for="tel" class="label">Téléphone (portable de préférence) *</label>
+                        <input type="tel" id="tel" placeholder="Inscrivez votre numéro de téléphone" name="tel" class="input" required>
                     </div>
-                    <div>
-                        <input type="checkbox" id="moderna" name="moderna" required>
-                        <label for="moderna">Moderna</label>
+                    <div class="form-box">
+                        <fieldset>
+                            <legend>Avez-vous été vacciné? *</legend>
+                            <div>
+                              <input type="checkbox" id="yes" name="yes" required>
+                              <label for="yes">Oui</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="no" name="no" required>
+                                <label for="no">Non</label>
+                            </div>
+                        </fieldset>
                     </div>
-                    <div>
-                        <input type="checkbox" id="astra" name="astra" required>
-                        <label for="astra">Astra Zeneca</label>
+                    <div class="form-box">
+                        <fieldset>
+                            <legend>Avec quel vaccin? *</legend>
+                            <div>
+                                <input type="checkbox" id="pfizer" name="pfizer" required>
+                                <label for="pfizer">Pfizer </label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="moderna" name="moderna" required>
+                                <label for="moderna">Moderna</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="astra" name="astra" required>
+                                <label for="astra">Astra Zeneca</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="janssen" name="janssen" required>
+                                <label for="janssen">Janssen</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="nsp" name="nsp" required>
+                                <label for="nsp">Je ne sais pas</label>
+                            </div>
+                        </fieldset>          
                     </div>
-                    <div>
-                        <input type="checkbox" id="janssen" name="janssen" required>
-                        <label for="janssen">Janssen</label>
+                    <div class="form-box">
+                        <fieldset>
+                            <legend>Combien de doses?</legend>
+                            <div>
+                                <input type="checkbox" id="1dose" name="1dose">
+                                <label for="1dose">1 dose</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="2doses" name="2doses">
+                                <label for="2doses">2 doses</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="3doses" name="3doses">
+                                <label for="3doses">3 doses</label>
+                            </div>
+                        </fieldset>
                     </div>
-                    <div>
-                        <input type="checkbox" id="nsp" name="nsp" required>
-                        <label for="nsp">Je ne sais pas</label>
+                    <div class="form-box">
+                        <label for="date-choice" class="label">Date de votre dernière vaccination *</label>
+                        <input type="date" id="date-choice" name="date-choice" class="input" required>
                     </div>
-                </fieldset>          
-            </div>
-            <div class="form-box">
-                <fieldset>
-                    <legend>Combien de doses?</legend>
-                    <div>
-                        <input type="checkbox" id="1dose" name="1dose">
-                        <label for="1dose">1 dose</label>
+                    <div class="form-box">
+                        <label for="message" class="label">Si vous avez un message à laisser...</label>
+                        <textarea rows="5" cols="50" id="message" name="message"> </textarea>
                     </div>
-                    <div>
-                        <input type="checkbox" id="2doses" name="2doses">
-                        <label for="2doses">2 doses</label>
+                    <div class="form-buttons">
+                        <input type="submit" value="Envoyer" class="form-button">    
+                        <input type="reset" value="Réinitialiser le formulaire" class="form-button">
                     </div>
-                    <div>
-                        <input type="checkbox" id="3doses" name="3doses">
-                        <label for="3doses">3 doses</label>
+                </form>
+        
+            </main>
+            <aside id="aside-content" class="col-lg-4">
+                <article class="aside-article aa1">
+                    <div class="aside-article-content">
+                        <h2 class="aside-title">Prendre un rdv</h2>
+                        <p class="aside-article-text">Pour prendre rendez-vous avec un médecin de votre MSP</p>
+                        <div class="text-center">
+                            <button class="aside-button"><a href="/consult.html">Visiter la page</a></button>
+                        </div>
                     </div>
-                </fieldset>
-            </div>
-            <div class="form-box">
-                <label for="date-choice" class="label">Date de votre dernière vaccination *</label>
-                <input type="date" id="date-choice" name="date-choice" class="input" required>
-            </div>
-            <div class="form-box">
-                <label for="message" class="label">Si vous avez un message à laisser...</label>
-                <textarea rows="5" cols="50" id="message" name="message"> </textarea>
-            </div>
-            <div class="form-buttons">
-                <input type="submit" value="Envoyer" class="form-button">    
-                <input type="reset" value="Réinitialiser le formulaire" class="form-button">
-            </div>
-        </form>
-    </main>
+                </article>
+                <article class="aside-article aa2">
+                    <div class="aside-article-content">
+                        <h2 class="aside-title">Médecin de garde</h2>
+                        <p class="aside-article-text">Coordonnées des médecins de garde du secteur</p>
+                        <div class="text-center">
+                            <button class="aside-button"><a href="/medgarde.html">Visiter la page</a></button>
+                        </div>
+                    </div>
+                </article>
+                <article class="aside-article aa3">
+                    <div class="aside-article-content">
+                        <h2 class="aside-title">Informations COVID</h2>
+                        <p class="aside-article-text">Réponses à vos questions concernant le COVID</p>
+                        <div class="text-center">
+                            <button class="aside-button"><a href="/info-covid.html">Visiter la page</a></button>
+                        </div>
+                    </div>
+                </article>
+            </aside>
+        </div>
+    </div>
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>

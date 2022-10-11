@@ -66,102 +66,136 @@
         </div>
     </nav>
   <!-- Contenu principal de la page -->
-    <main>
-        <h1 class="title">Prendre un rdv de consultation</h1>
-        <p>
-            Pour prendre rendez-vous pour la <strong>vaccination COVID</strong>, cliquez
-            <a href="vaccin-covid.html">ici</a>.</p>
-        <form action="" method="post" class="consult-form">
-            <p class="form-text">Vous voulez prendre un rendez-vous en ligne, remplissez ce formulaire, la secrétaire vous recontactera dans la demi-journée par mail, SMS ou par téléphone. N’oubliez pas de valider votre demande à la fin de la page.</p>
-            <p class="required-field-text"><i>* Champs obligatoire</i></p>
-            <div class="form-box">
-                <label for="name" class="label">Nom et prénom *</label>
-                <input type="text" id="name" placeholder="Inscrivez votre nom et prénom" name="name" class="input" required>
-            </div>
-            <div class="form-box">
-                <label for="tel" class="label">Téléphone *</label>
-                <input type="tel" id="tel" placeholder="Inscrivez votre numéro de téléphone" name="tel" class="input" required>
-            </div>
-            <div class="form-box">
-                <fieldset>
-                    <legend>Motif de votre RDV *</legend>
-                    <div>
-                      <input type="checkbox" id="desease" name="desease">
-                      <label for="desease">Maladie infectieuse (diarrhée, fièvre, courbature, toux, rhume, etc.)</label>
+    <div class="container-fluid">
+        <div class="row">
+            <main id="main-content" class="col-lg-8">
+                <h1 class="title">Prendre un rdv de consultation</h1>
+                <p>
+                    Pour prendre rendez-vous pour la <strong>vaccination COVID</strong>, cliquez
+                    <a href="vaccin-covid.html">ici</a>.
+                </p>
+                <form action="" method="post" class="consult-form">
+                    <p class="form-text">Vous voulez prendre un rendez-vous en ligne, remplissez ce formulaire, la secrétaire vous recontactera dans la demi-journée par mail, SMS ou par téléphone. N’oubliez pas de valider votre demande à la fin de la page.</p>
+                    <p class="required-field-text"><i>* Champs obligatoire</i></p>
+                    <div class="form-box">
+                        <label for="name" class="label">Nom et prénom *</label>
+                        <input type="text" id="name" placeholder="Inscrivez votre nom et prénom" name="name" class="input" required>
                     </div>
-                    <div>
-                      <input type="checkbox" id="emergency" name="emergency">
-                      <label for="emergency">Urgence, traumatologie</label>
+                    <div class="form-box">
+                        <label for="tel" class="label">Téléphone *</label>
+                        <input type="tel" id="tel" placeholder="Inscrivez votre numéro de téléphone" name="tel" class="input" required>
                     </div>
-                    <div>
-                        <input type="checkbox" id="child" name="child">
-                        <label for="child">Suivi enfant, vaccination</label>
+                    <div class="form-box">
+                        <fieldset>
+                            <legend>Motif de votre RDV *</legend>
+                            <div>
+                              <input type="checkbox" id="desease" name="desease">
+                              <label for="desease">Maladie infectieuse (diarrhée, fièvre, courbature, toux, rhume, etc.)</label>
+                            </div>
+                            <div>
+                              <input type="checkbox" id="emergency" name="emergency">
+                              <label for="emergency">Urgence, traumatologie</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="child" name="child">
+                                <label for="child">Suivi enfant, vaccination</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="infiltration" name="infiltration">
+                                <label for="infiltration">Infiltration, Mésothérapie</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="gynecology" name="gynecology">
+                                <label for="gynecology">Gynécologie</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="certificate" name="certificate">
+                                <label for="certificate">Certificat</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="renewal" name="renewal">
+                                <label for="renewal">Renouvellement d'ordonnance, suivi de pathologie chronique</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="homeopathy" name="homeopathy">
+                                <label for="homeopathy">Homéopathie</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="teleconsultation" name="teleconsultation">
+                                <label for="teleconsultation">Téléconsultation en visioconférence</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="otherConsult" name="otherConsult">
+                                <label for="otherConsult">Autre</label>
+                            </div>
+                        </fieldset>
                     </div>
-                    <div>
-                        <input type="checkbox" id="infiltration" name="infiltration">
-                        <label for="infiltration">Infiltration, Mésothérapie</label>
+                    <div class="form-box">
+                        <fieldset>
+                            <legend>Avec quel médecin? *</legend>
+                            <div>
+                              <input type="checkbox" id="struk" name="struk">
+                              <label for="struk">Dr Struk</label>
+                            </div>
+                            <div>
+                              <input type="checkbox" id="botte" name="botte">
+                              <label for="botte">Dr Botté-Boulanger</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="merigot" name="merigot">
+                                <label for="merigot">Dr Mérigot</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="interne" name="interne">
+                                <label for="interne">L'interne</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="other" name="other">
+                                <label for="other">Peu importe le plus rapide...</label>
+                            </div>
+                        </fieldset>
                     </div>
-                    <div>
-                        <input type="checkbox" id="gynecology" name="gynecology">
-                        <label for="gynecology">Gynécologie</label>
+                    <div class="form-box">
+                        <label for="date" class="label">Préférence de date ou d'horaire</label>
+                        <textarea rows="5" cols="50" id="date" name="date"> </textarea>
                     </div>
-                    <div>
-                        <input type="checkbox" id="certificate" name="certificate">
-                        <label for="certificate">Certificat</label>
+                    <div class="form-buttons">
+                        <input type="submit" value="Soumettre" class="form-button">    
+                        <input type="reset" value="Réinitialiser" class="form-button">
                     </div>
-                    <div>
-                        <input type="checkbox" id="renewal" name="renewal">
-                        <label for="renewal">Renouvellement d'ordonnance, suivi de pathologie chronique</label>
+                </form>
+            </main>
+            <aside id="aside-content" class="col-lg-4">
+                <article class="aside-article aa1">
+                    <div class="aside-article-content">
+                        <h2 class="aside-title">Prendre un rdv</h2>
+                        <p class="aside-article-text">Pour prendre rendez-vous avec un médecin de votre MSP</p>
+                        <div class="text-center">
+                            <button class="aside-button"><a href="/consult.html">Visiter la page</a></button>
+                        </div>
                     </div>
-                    <div>
-                        <input type="checkbox" id="homeopathy" name="homeopathy">
-                        <label for="homeopathy">Homéopathie</label>
+                </article>
+                <article class="aside-article aa2">
+                    <div class="aside-article-content">
+                        <h2 class="aside-title">Médecin de garde</h2>
+                        <p class="aside-article-text">Coordonnées des médecins de garde du secteur</p>
+                        <div class="text-center">
+                            <button class="aside-button"><a href="/medgarde.html">Visiter la page</a></button>
+                        </div>
                     </div>
-                    <div>
-                        <input type="checkbox" id="teleconsultation" name="teleconsultation">
-                        <label for="teleconsultation">Téléconsultation en visioconférence</label>
+                </article>
+                <article class="aside-article aa3">
+                    <div class="aside-article-content">
+                        <h2 class="aside-title">Informations COVID</h2>
+                        <p class="aside-article-text">Réponses à vos questions concernant le COVID</p>
+                        <div class="text-center">
+                            <button class="aside-button"><a href="/info-covid.html">Visiter la page</a></button>
+                        </div>
                     </div>
-                    <div>
-                        <input type="checkbox" id="otherConsult" name="otherConsult">
-                        <label for="otherConsult">Autre</label>
-                    </div>
-                </fieldset>
-            </div>
-            <div class="form-box">
-                <fieldset>
-                    <legend>Avec quel médecin? *</legend>
-                    <div>
-                      <input type="checkbox" id="struk" name="struk">
-                      <label for="struk">Dr Struk</label>
-                    </div>
-                    <div>
-                      <input type="checkbox" id="botte" name="botte">
-                      <label for="botte">Dr Botté-Boulanger</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" id="merigot" name="merigot">
-                        <label for="merigot">Dr Mérigot</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" id="interne" name="interne">
-                        <label for="interne">L'interne</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" id="other" name="other">
-                        <label for="other">Peu importe le plus rapide...</label>
-                    </div>
-                </fieldset>
-            </div>
-            <div class="form-box">
-                <label for="date" class="label">Préférence de date ou d'horaire</label>
-                <textarea rows="5" cols="50" id="date" name="date"> </textarea>
-            </div>
-            <div class="form-buttons">
-                <input type="submit" value="Soumettre" class="form-button">    
-                <input type="reset" value="Réinitialiser" class="form-button">
-            </div>
-        </form>
-    </main>
+                </article>
+            </aside>
+        </div>
+    </div>
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>

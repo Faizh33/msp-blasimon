@@ -67,306 +67,340 @@
         </div>
     </nav>
 <!-- Contenu principal de la page -->
-    <main>
-        <h1 class="title">Le vaccin contre la COVID</h1>
-        <ul class="sommaire">
-            <li><a href="#preambule">Préambule</a></li>
-            <li><a href="#epidemiologie">Un peu d’épidémiologie et de statistiques</a></li>
-            <li><a href="#virologie">Un peu de virologie : le SARS-COV-2</a></li>
-            <li><a href="#immunologie">Un peu d’immunologie : la réponse immunitaire</a></li>
-            <li><a href="#vaccins">Les vaccins</a></li>
-            <li><a href="#adjuvants">Les adjuvants</a></li>
-            <li><a href="#effets-secondaires">Les effets secondaires</a></li>
-            <li><a href="#analyse-etudes">Analyse des études des vaccins mis à disposition</a></li>
-            <ul>
-                <li><a href="#pfizer-biontech">Pfizer BioNTech</a></li>
-                <li><a href="#moderna">Moderna</a></li>
-            </ul>
-            <li><a href="#vaccination-questions">La vaccination : qui? où? par qui? comment?</a></li>
-            <li><a href="#questions">Les questions</a></li>
-            <li><a href="bibliographie">Bibliographie</a></li>
-        </ul> 
-        <h2 class="title2" id="preambule">Préambule</h2>
-        <p>
-            Mi-novembre 2020, l'Organisation mondiale de la santé a recensé plus de 200 vaccins covid-19 en cours de développement.<br>Il est crucial de disposer des données scientifiques fiables, afin d’évaluer la balance bénéfice/risque. Cet exposé élaboré par les médecins du cabinet médical repose sur des données scientifiques reconnues (HAS, INSERM, Lancet, ANSM, CNRS, FDA, Healthcare etc).<br>La vaccination contre la covid-19 a des objectifs divers :
-        </p>
-        <ul>
-            <li>réduire la mortalité</li>
-            <li>réduire la morbidité ou tout au moins limiter une hospitalisation en soins intensifs</li>
-            <li>réduire les séquelles à plus ou moins long terme</li>
-            <li>réduire la transmission et la circulation du virus</li>
-        </ul>
-        <p>Ces objectifs étant fixés, des questions se posent:</p>
-        <ul>
-            <li>Il ne suffit pas que la vaccination soit efficace il faut aussi qu'elle expose à moins de troubles de santé que ne le ferait l'infection.</li>
-            <li>Quels sont les types de vaccin : virus atténué, virus inactivé, protéine virale, insertion intracellulaire de matériel génétique ? Ce type de vaccin a-t-il déjà été éprouvé dans d'autres vaccins (pour d’autres maladies?) ? Quels sont les effets indésirables connus et prévisibles ?</li>
-            <li>Le vaccin contient-il un adjuvant ? Cet adjuvant est-il déjà utilisé dans d'autres vaccins avec des effets indésirables connus ? Ou s'agit-il d'un adjuvant jamais utilisé?</li>
-            <li>Quelles sont les données sur les effets indésirables ?</li>
-            <li>Un suivi à plus long terme des participants aux essais a-t-il été organisé ? Chez combien de participants et pendant combien de temps ? Avec quel dispositif pour repérer des événements graves?</li>
-        </ul>
-        <p>
-            Nous allons donc essayer de répondre ce soir à ces questions, mais avant de répondre à ces questions, nous allons faire quelques rappels de bases en épidémiologie et virologie afin de mieux comprendre les différents vaccins et les résultats des essais cliniques.
-        </p>
-        <h2 class="title2" id="epidemiologie">Un peu d'épidémiologie et de statistiques</h2>
-        <p>
-            Il est important de savoir reconnaître les bonnes et les moins bonnes études sur les essais cliniques.<br>Les études les plus solides sont les essais comparatifs randomisés (c'est-à-dire que l'assignation au groupe traité ou à l'autre groupe se fait par un tirage au sort). Tant que l'essai n'est pas terminé, mieux vaut que les participants ne sachent pas s'ils ont reçu ou non le traitement, pour que cela n'influence pas leur comportement. Et mieux vaut que les investigateurs ne le sachent pas non plus, pour ne pas être influencés dans leur évaluation des symptômes. C'est ce qu'on nomme le "double aveugle".<br>Le groupe traité peut être comparé avec un groupe non traité (placebo) ou comparé avec groupe traité avec un traitement X.<br>Donc mieux vaut une “étude randomisée en double aveugle contre placebo” ou “étude randomisée en double aveugle versus vaccin X”.<br><br>Une autre donnée très importante est le nombre de patients et la manière dont est constituée la population: c’est ce que l’on appelle l'échantillonnage.<br>Avant l’étude, celle-ci doit se fixer des objectifs et répondre à une ou des questions: de la mortalité liée au covid-19 ? À court ou moyen terme ? du nombre de patients qui nécessitent des soins intensifs ? du nombre de patients hospitalisés pour covid-19 ? des infections, toutes gravités confondues ? etc.<br><br>Pour analyser une étude et ses éventuels biais, les questions à se poser sont :<br>L'essai est-il randomisé? Qu'ont reçu les personnes dans le groupe témoin, un placebo ou un autre vaccin? L'essai a-t-il été réalisé en double aveugle? Quels sont les critères d'évaluation choisis? Quels sont les participants de l'essai ? Quel est leur niveau d'exposition au Sars-CoV-2? S'agit-il de personnes soignantes? L'essai a-t-il été réalisé lors d'une forte ou d'une faible circulation du virus? Ou chez des personnes qui se sont volontairement exposées au virus? Des personnes à risque accru de formes graves de covid-19 ont-elles été incluses? Une évaluation a-t-elle été menée chez des personnes très âgées ou des patients immunodéprimés ? Quelle a été la durée de suivi des participants? etc.
-        </p>
-        <h2 class="title2" id="virologie">Un peu de virologie : le SARS-COV-2</h2>
-        <p>
-            Les virus sont des micro-organismes très simples: grosso modo du matériel génétique ( ARN ou ADN) et une enveloppe sur laquelle se trouvent des protéines qui leur permettent de pénétrer des cellules dans lesquelles ils vont trouver toute la machinerie qui va leur permettre de se multiplier. Les virus à ARN ont plus tendance à muter car il y a plus d’erreurs de codage lors de la réplication de leur matériel génétique.<br><br>Le SARS-CoV-2 (acronyme de Severe Acute Respiratory Syndrome-related CoronaVirus-2) appartient à la famille des Coronavirus, il existe plusieurs milliers de coronavirus, 7 peuvent infecter l’homme, trois sont responsables de graves pneumopathies:
-        </p>
-        <ul>
-            <li>le SARS-CoV 1, agent du syndrome respiratoire aigu sévère (SRAS) en 2002-2004</li>
-            <li>le MERS-CoV, celui du syndrome respiratoire du Moyen-Orient à partir de 2012</li>
-            <li>le SARS-CoV-2, celui de la COVID 2019</li>
-        </ul>
-        <p>
-            Les autres coronavirus ne se répliquent qu’au niveau des Voies Aériennes Respiratoires Supérieures (VARS) et sont responsables de simples rhumes.<br>Les coronavirus sont des virus à ARN avec des protéines de surface Protéine S (S pour Spike) formant une couronne d'où son nom.<br>Autre détail important pour la vaccination: le virus subit des mutations, mais plus lentes que pour la majorité des virus à ARN (deux fois moins que le virus de la grippe).
-        </p>
-        <h2 class="title2" id="immunologie">Un peu d’immunologie</h2>
-        <p>
-            Le principe de la vaccination est toujours le même : il s’agit de présenter un pathogène (virus, parasite ou bactérie) à notre système immunitaire afin qu’il apprenne à le reconnaître et à fabriquer des anticorps spécifiques qui seront prêts à le neutraliser lorsque nous le rencontrerons dans la vraie vie.<br><br>
-            En réalité, ce n’est pas le pathogène qui déclenche la réponse immunitaire, mais les protéines qui se trouvent à la surface du virus: les antigènes. Ces antigènes sont la clé qui permet au virus de pénétrer dans la cellule pour se reproduire et provoquer les symptômes de la maladie.<br>Concernant les coronavirus, l’antigène est la protéine S que nous venons de décrire.<br>Actuellement plus de 180 types de vaccins différents sont en cours d’étude.
-        </p>
-        <h2 class="title2" id="vaccins">Les différents vaccins</h2>
-        <p>
-            L’idée du vaccin est d’inoculer le pathogène sous une forme inoffensive. Plusieurs techniques sont possibles l’utilisation du virus entier rendu inoffensif, aux techniques plus récentes comme les vaccins à ADN ou ARN.<br><br>Selon leur mode de préparation, on distingue plusieurs catégories de vaccins :
-        </p>
-        <h3 class="subtitle">Les vaccins vivants atténués:</h3>
-        <p>
-            Les germes perdent leur pouvoir pathogène en conservant leur pouvoir immunogène. Vaccin bactériens (BCG) ou viraux (rougeole oreillons rubéole, poliomyélite orale, fievre jaune, varicelle ou la gastro-entérite).<br>Le plus souvent une seule injection.<br>Inconvénient ils peuvent garder une certaine pathogénicité (cf retrait Rotavax).
-        </p>
-        <h3 class="subtitle">Les vaccins inactivés tués:</h3>
-        <p>
-            Bactériens (coqueluche dit à germe entier), ou viraux (poliomyélite injectable, rage, grippe, hépatite A).<br>Ils sont complètement inactivés et ne peuvent pas se reproduire.<br>Ils nécessitent des adjuvants pour conserver leur pouvoir immunogène.<br>Ils sont assez faciles à fabriquer, avec le bémol des règles de biosécurité<br>La limite de vitesse de fabrication est celle de la vitesse de multiplication des virus.<br>Nécessite plusieurs injections.
-        </p>
-        <h3 class="subtitle">Les vaccins sous unités ou à fractions antigéniques purifiées:</h3>
-        <p>
-            Ils ne sont constitués que par une fraction du germe qui induit des anticorps.<br>Bactériens; constitués de protéines: les anatoxines diphtérique ou tétanique ou constitués de polyosides, sucres constituant la capsule des bactéries (Haemophilus influenzae b, pneumocoques, méningocoques, Salmonelle).<br>Viraux; l’antigène est fabriqué par génie génétique puis purifié pour servir de base aux vaccins on parle de vaccin recombinant (hépatite B, papillomavirus)
-        </p>
-        <h3 class="subtitle">La recherche et le développement sur les vaccins se fait en 4 phases, comme pour tous les médicaments:</h3>
-        <ul>
-            <li>La phase I pour s'assurer de l’innocuité</li>
-            <li>La phase II détermine aussi la qualité et la durée de la réponse immunitaire</li>
-            <li>La phase III efficacité et bénéfices/risques</li>
-            <li>La phase IV est la phase de pharmacovigilance </li>
-        </ul>
-        <p>
-            Toutes ces pistes sont actuellement exploitées dans la recherche d’un vaccin contre le Covid-19.
-        </p>
-        <h3 class="subtitle">Les pistes pour un vaccin contre le Sars-Cov-19</h3>
-        <h4 class="subtitle2">les vaccins inactivés</h4> 
-        <p>
-            C’est la voie suivie par plusieurs laboratoires chinois (Coronavac) en phase 3.
-        </p>
-        <h4 class="subtitle2">les vaccins à virus atténué</h4>
-        <p>
-            Ils pourraient être injectés par voie nasale ce qui pourrait induire une réponse immunitaire au niveau des muqueuses en phase 2
-        </p> 
-        <h4 class="subtitle2">les vaccins à vecteur viral</h4>
-        <p>
-            Là il s’agit d'accrocher la protéine spike sur des virus autres que le Covid, anodins pour l’homme, mais qui vont pouvoir se développer dans les cellules humaines pour faire fabriquer à l’organisme des anticorps contre cette protéine.<br>On utilise un vrai virus, des adénovirus, le virus du rhume ( C’est le choix fait pour le vaccin russe Spoutnik V, Janssen, Cansino ou AstraZeneca) ou le virus de la rougeole (c’est le choix de l’institut Pasteur).<br>Il est possible qu’une seule dose de ce type de vaccin suffise.<br>Ce type  de vaccin pourrait éventuellement être fabriqué sur les mêmes chaînes de fabrication que celles de la grippe, donc avec une infrastructure de fabrication opérationnelle.
-        </p>
-        <h4 class="subtitle2">les vaccins à base de protéines</h4>
-        <p>
-            On utilise la protéine Spike comme antigène pour provoquer la réponse immunitaire. Il faut utiliser un adjuvant pour que  l’association adjuvant-antigène soit reconnue comme un corps étranger.<br>Le laboratoire Sanofi allié au laboratoire GlaxoSmithKline ont choisi cette voie.<br><span class="underline-text">Avantage</span>: on n’est pas obligé de manipuler des virus vivants pour les fabriquer.<br><span class="underline-text">Inconvénient</span>: la protéine spike n’est pas si simple que ça à fabriquer, cela peut rendre le processus plus lent et complexe que pour un vaccin à virus entier;
-        </p>
-        <h4 class="subtitle2">Les vaccins à ADN/ARN</h4>
-        <p>
-            L’idée est de la faire produire directement la protéine S par le corps humain pour déclencher la réponse immunitaire.<br>Problème, l’ADN ou l’ARN sont dégradés à peine entrés dans l’organisme. Il lui faut un “véhicule” capable de l’y transporter.
-        </p>
-        <h5 class="subtitle3">a/ vaccin à ADN:</h5>
-        <p>
-            <span class="underline-text">Avantages</span>: cet ADN est très stable, il peut se produire à grande échelle.<br><span class="underline-text">Inconvénients</span>: on interfère sur l’ADN, l’immunité que l’on développe est faible, il faudra des rappels.<br>Un laboratoire canadien et un laboratoire japonais sont en phase 3.
-        </p>
-        <h5 class="subtitle3">b/ vaccin à ARN:</h5>
-        <p>
-            Même principe, ce type de vaccin est délivré via des nanoparticules. C’est l’option prise par le laboratoire Pfizer / BioNTech, ou encore par Moderna.<br><span class="underline-text">Avantages</span>: ce vaccin ne peut pas être source d’infection puisqu’il ne contient pas de virus. L’ARN se dégrade et disparaît quand il a joué son rôle. Il suffit de très petites doses d’ARN puisque ce sont les cellules humaines qui, via cet ARN, vont fabriquer les protéines Spike, puis les anticorps contre cette protéine grâce aux cellules immunitaires.<br><span class="underline-text">Inconvénients</span>: ce type de vaccin est tout nouveau, pas de référence technologique et surtout le stockage pose problème (très basses températures nécessaires).<br>Ils sont en phase 4.
-        </p>
-        <h2 class="title2" id="adjuvants">Les adjuvants</h2>
-        <h3 class="subtitle">Quel est le rôle des adjuvants?</h3>
-        <p>
-            Des adjuvants sont ajoutés à la fabrication des vaccins inactivés pour augmenter la réponse immunitaire. Ils permettent aussi de réduire la quantité d’antigène par dose, de réduire le nombre de doses nécessaires pour assurer une bonne immunisation.<br>Les vaccins vivants atténués (comme ROR, Fievre jaune, tuberculose...) ne nécessitent pas d’adjuvant.<br>De nombreux vaccins inactivés notamment les vaccins combinés (revaxis, infanrix boostrix etc), les vaccins contre l’hépatite B, les vaccins contre la méningite contiennent des sels d’aluminium. C’est l’adjuvant le plus utilisé dans le monde depuis plus de 90 ans et des centaines de millions de doses injectées.<br>
-        </p>
-        <h2 class="title2" id="effets-secondaires">Les effets secondaires</h2>
-        <p>
-            Passons sur les effets secondaires banaux : fièvre, myalgies, asthénie, liés, non pas à une infection, (vous l’avez compris on injecte pas le plus souvent la maladie) mais lié à la réponse immunitaire.<br>Nous allons parler de 2 syndrômes: la myofasciite à macrophage et le syndrome de Guillain Barré.
-        </p>
-        <h3 class="subtitle">La myofasciite à macrophage.</h3>
-        <p>
-            En 1993 un neurologue français a décrit une infiltration de macrophages autour des muscles dans le cadre de biopsies associé à un syndrome asthénie myalgie arthralgie qu’il attribue à l’aluminium au point d’injection ( une étude ayant durée 15 ans a retrouvé 515 cas de MFM). Cette “pathologie” est une spécificité française.<br>Ce “tatouage vaccinal” ne reflète pas une atteinte inflammatoire musculaire et n’est pas associée à une maladie spécifique. L’hypothèse de biais d’échantillonnage inhérents à la forte prévalence et à la faible spécificité des symptômes au sein d’une population majoritairement vaccinée avec des adjuvants reste l’hypothèse la plus probable.<br>
-        </p>
-        <h3 class="subtitle">Le syndrome de Guillain-Barré</h3>
-        <p>
-            Le syndrome de Guillain-Barré (polynévrite sensitive et motrice le plus souvent temporaire ) est rare 2,8 cas pour 100.000 habitants 2 fois sur 3 il survient après une maladie infectieuse (4 à 7 cas pour 100.000 grippe mais aussi GEA ) et de façon plus exceptionnelle après vaccinations ( 1 cas pour 1.000.000 de vacciné) sans qu'un lien de causalité ait été clairement démontré. Une susceptibilité génétique individuelle concernant les cas avec récidives de Guillain Barré est probable, mais on n’en connaît pas le substrat à ce jour.
-        </p>
-        <h2 class="title2" id="pfizer-biontech">Vaccin Pfizer BioNTech: Cominarty</h2>
-        <p>C’ est un vaccin à ARN messager (ARNm), sans adjuvant.</p>
-        <h3 class="subtitle">Conservation</h3>
-        <p>6 mois à -80°C, 5 jours entre 2 et 8°C, 2h à température ambiante.</p>
-        <h3 class="subtitle">Essai</h3>
-        <p>
-            Il s’agit d’un essai randomisé en double aveugle contre placebo (2 groupes égaux) avec deux doses de 30 µg d’ARNm espacé de 3 semaines ou de placebo qui a inclus 44000 participants de 16 ans à 85 ans, âge moyen 50,2 ans. La moyenne de suivi après la 2ème dose a été de 2 mois. critère d’efficacité: incidence des cas de COVID-19 après 7j.
-        </p>
-        <h3 class="subtitle">Efficacité</h3>
-        <p>
-            La moyenne des titres d'anticorps mesurés chez les vaccinés était du même niveau ou supérieure à celle déterminée dans des sérums de convalescents guéris de la COVID 19. Par ailleurs, le vaccin a induit une forte réponse cellulaire.<br>L'efficacité vaccinale est de 52% après la première dose et 95 % 7 jours après l'injection de la 2ème dose.<br>L'analyse des sous-groupes présentant une comorbidité (diabete, hypertendu BPCO, obèse) montre un taux de protection similaire.<br>L’efficacité sur les formes sévères n’a pu être établie (0 cas dans le groupe vacciné 30 cas dans le groupe placebo). Il en est de même pour les plus de 75 ans (échantillon insuffisant).
-        </p>
-        <h3 class="subtitle">Effets secondaires</h3>
-        <p>
-            Les effets secondaires les plus fréquents ont été des réactions autour du point d'injection dans le bras (84,1%), une fatigue (62,9%), des maux de tête (55,1%), des courbatures (38,3%), des frissons (31,9%), des douleurs dans les articulations (23,6%), et une fièvre (14,2%). Des réactions sévères se sont produites chez 0 à 4,6% des participants et étaient moins fréquentes chez les personnes de plus de 55 ans (2,8%) que chez les jeunes (4,6%).<br>Ils ont été plus marqués dans le groupe "vaccin" que dans le groupe "placebo" , plus fréquents et plus intenses après la 2ème dose.<br>Les effets indésirables graves, c'est-à-dire requérant par exemple une hospitalisation, étaient très rares dans l'ensemble de l'essai clinique (moins de 0,5%) et il y en a eu autant dans le groupe placebo que dans le groupe de personnes vaccinées, suggérant que le vaccin n'était pas en cause.<br>Des effets indésirables, de nature allergique, ont été observés parmi les premiers vaccinés au Royaume-Uni.
-        </p>
-        <h2 class="title2" id="moderna">Vaccin Moderna</h2>
-        <p>C’est un vaccin à ARN messager (ARNm), sans adjuvant.</p>
-        <h3 class="subtitle">Conservation</h3>
-        <p>
-            7 mois à -20°C (stockage longue durée), puis entre 2 et 8°C pendant 1 mois, 6 heures après ouverture. 10 doses par flacon sans dilution.
-        </p>
-        <h3 class="subtitle">Essai</h3>
-        <p>
-            Il s’agit d’un essai randomisé en double aveugle contre placebo avec 3 sous groupes (18-64 ans sans facteur de risque, 18-64 ans avec facteur de risque et plus de 65 ans) avec deux doses de 100 µg d’ARNm espacé de 4 semaines ou de placebo. II a inclus 36600 participants de plus de 18 ans, âge moyen 52 ans. Le suivi après la 2ème dose a été de 53 à 60 jours. Le critère d’efficacité: incidence des cas de COVID-19 après 14j.
-        </p>
-        <h3 class="subtitle">Efficacité</h3>
-        <p>
-            On retrouve la même efficacité.<br>L'efficacité vaccinale est de 80% après la première dose et 94 % 14 jours après l'injection de la 2ème dose.<br>L'analyse des 3 sous-groupes montre un taux de protection similaire.<br>L’efficacité sur les formes sévères n’a pu être établie. là aussi impossible de se prononcer pour les plus de 75 ans (nombre de cas insuffisant).
-        </p>
-        <h3 class="subtitle">Effets secondaires</h3>
-        <p>
-            La fatigue a été rapportée chez 68,5 % des sujets du groupe vacciné et 36,1 % du groupe placebo;<br>Les maux de tête chez 63 % versus 36,5 %;<br>Les courbatures chez 59,6 % versus 20,1 %;<br>Les douleurs articulaires chez 44,8 % versus 17,2 %;<br>Les frissons chez 43,4 % versus 9,5 %;<br>La fièvre chez 14,8 % versus 0,6 %.
-        </p>
-        <h3 class="subtitle">Surveillance</h3>
-        <p>
-            Outre les déclarations au centre de pharmacovigilance, l'ANSM met en place un dispositif de surveillance renforcée des effets indésirables des vaccins. Le système s'appuie sur un carnet de vaccination électronique sur monvaccin.net grâce à un modèle citoyen participatif de renforcement de la pharmacovigilance Celui-ci consiste à envoyer à chaque personne vaccinée, un email ou un SMS permettant de collecter l’information sur la survenue ou la non survenue d’un événement indésirable post-vaccinal.<br>Notons que les effets secondaires les plus souvent observés sont les mêmes que ceux que l’on peut observer avec le vaccin grippal...
-        </p>
-        <h2 class="title2" id="vaccination-questions">Le plan de vaccination : qui? où? par qui? comment?</h2>
-        <h3 class="subtitle">Qui?</h3>
-        <p>
-            Janvier-février: patient et personnel soignant à risque dans les EHPAD<br>Février-Mars : patients de plus de 75 ans puis 65 ans puis soignant de plus de 50 ans<br>Au printemps: les 50-65 ans , les personnels des secteurs essentiels, les personnes vulnérable et précaire.<br>Cet été: le reste de la population. <span class="underline-text">Contre indication</span> : enfant de moins de 16 ans, grossesse, patient immunodéprimé (pas encore d’étude pour ces populations), COVID de moins de 3 mois.
-        </p>
-        <h3 class="subtitle">Ou?</h3>
-        <p>Tout le problème de la logistique avec les vaccins à ARN…</p>
-        <h3 class="subtitle">Par qui?</h3>
-        <p>Dans un premier temps les vaccins seront effectué par les médecins ou en présence d’un médecin, le risque bien qu'exceptionnel est le choc anaphylactique qui nécessite un traitement immédiat (1 mg d’ADRENALINE toutes les 1 à 2 minutes puis 5 mg à partir de la 3ème injection).</p>
-        <h3 class="subtitle">Comment?</h3>
-        <p>Voie IM, Deltoïde de préférence.<br>2 injection J0 et J21 pour Cominarty et J28 pour Moderna.</p>
-        <h2 class="title2" id="questions">Les questions</h3>
-        <p>
-            <span class="underline-text">Le consentement des patients alzheimer où la famille n'est pas présente on fait comment?</span><br>Excellente question, cela va être très compliqué, mais ce sera au médecin d’avoir ce consentement.
-        </p>
-        <p>
-            <span class="underline-text">Effet secondaire? Patient ayant une insuffisance rénale?</span><br>Aucune étude chez l'insuffisant rénal.
-        </p>
-        <p>
-            <span class="underline-text">Effets secondaires à court et long terme?</span><br>On ne sait pas pour les effets à long terme mais comme pour toute vaccination les effets sont généralement connus dans les premières semaines.
-        </p>
-        <p>
-            <span class="underline-text">Les pharmaciens sont-ils habilités à vacciner comme pour la grippe?</span> Pour le moment non mais j’espère que cela viendra très vite.
-        </p>
-        <p>
-            <span class="underline-text">Pour les personnes très allergiques, le vaccin est-il conseillé ?</span><br>On considère une personne très allergique une personne qui a besoin d’adrénaline sur lui, ces personnes pour le moment ne seront pas vaccinées.
-        </p>
-        <p>
-            <span class="underline-text">De quoi est réellement composé le vaccin ?</span><br>Un vaccin=un antigène + un adjuvant + excipient + parfois un conservateur (parfois).
-        </p>
-        <p>
-            <span class="underline-text">Comment se fait-il que l’on puisse faire un vaccin aussi rapidement avec une nouvelle technologie ARN messager inconnue?</span><br>Katalin Kariko dans les années 1990 a été la pionnière dans l’utilisation de l’ARN messager. A l’origine l’idée était de faire fabriquer par l’organisme des médicaments, des protéines, des hormones pour traiter le cancer, des maladies dégénératives, le diabète etc.<br>Depuis 10 ans des sociétés veulent révolutionner l'industrie du médicament avec l'ARN modifié: Moderna ( MODifiEd RNA) BioNTech et Curevac.<br>L’épidémie de la COVID 19 a été un catalyseur.<br>Les alliances avec des laboratoires pharmaceutiques, les milliards des états ont fait le reste.<br>Katalin Kariko: retenez ce nom, je pense que ce sera le prochain prix nobel.<br>Par ailleurs, entre 2002 et 2004, à la suite de l’épidémie de Sars-CoV 1 (SRAS), ainsi que de celle du Mers-CoV, des recherches sur les coronavirus ont débuté, elles ont permis de mettre en évidence la protéine Spike comme cible éventuelle pour un vaccin. Comme cette maladie a disparu d’elle-même, aucun vaccin n’a été mis au point. Par contre, ces recherches passées ont permis dès le début 2020 de reprendre où les recherches s’étaient arrêtées, c’est pourquoi on peut avoir l’impression un peu inquiétante que les vaccins actuellement proposés l’ont été de manière trop rapide.
-        </p>
-        <p>
-            <span class="underline-text">Quels sont les risques spécifiques des vaccins à ARN messager?</span><br>Un vaccin à ARN messager est le vaccin dont le mécanisme d'infection ressemble le plus à celui du virus naturel : c'est un morceau de code génétique à traduire en protéine, entouré d'une capsule de lipides pour pouvoir entrer dans les cellules humaines. Mais, à la différence du virus complet, ce type de vaccin contient UNIQUEMENT l'ARN messager qui code pour la protéine de surface du virus (Spike) – il ne contient pas le matériel génétique nécessaire pour fabriquer un virus complet capable ensuite de se multiplier et de provoquer un COVID-19 maladie.
-        </p>
-        <p>
-            <span class="underline-text">N'est-il pas dangereux d'injecter de l'ARN messager en forçant le corps à fabriquer la protéine de surface du coronavirus ?</span><br>C'est un processus très naturel puisque c'est ce qui se passe à chaque rhume, à chaque grippe, à chaque infection virale... pendant lesquelles les virus forcent le corps à fabriquer des milliards de protéines ainsi que le matériel génétique nécessaire à la production de virus entiers.
-        </p>
-        <p>
-            <span class="underline-text">Les vaccins à ARN messager peuvent-ils modifier notre propre code génétique?</span><br>Les ARN messagers ne sont pas transcrits en ADN; ils sont directement lus et transcrits en protéines par les ribosomes dans le cytoplasme des cellules humaines qui les prennent en charge. Les ARN messagers viraux n'ont aucun moyen d'entrer dans le noyau d'une cellule humaine qui contient notre propre ADN/code génétique.
-        </p>
-        <p>
-            <span class="underline-text">Les vaccins à ARN messager sont-ils de la thérapie génique ?</span><br>La thérapie génique est une stratégie de traitement qui consiste à faire pénétrer des gènes (= de l’ADN) dans les cellules d'une personne pour corriger un problème génétique et traiter une maladie. Les vaccins à ARN messager ne changent rien au génome humain.
-        </p>
-        <p>
-            <span class="underline-text">Combien de temps l'ARN messager contenu dans le vaccin reste-t-il dans l'organisme ? Et quel est le devenir de ses produits de dégradation ?</span><br>Chaque cellule de notre organisme contient de nombreuses enzymes qui dégradent rapidement les ARN messagers. Il est actuellement estimé que l'ARN messager viral ne persiste pas plus de 1-2 jours après l'injection.
-        </p>
-        <p>
-            <span class="underline-text">Les vaccins de Pfizer et de Moderna contiennent des nanoparticules lipidiques; posent-elles des risques ?</span><br>On appelle nanoparticules toutes les particules de taille comprise entre 1 et 100 nanomètres. Les nanoparticules de lipides utilisées dans les vaccins sont constituées de lipides similaires à ceux que l'on trouve dans le corps humain;
-        </p>
-        <p>
-            <span class="underline-text">Que se passera-t-il si le virus mute ? notamment au niveau de la protéine S?</span><br>Les mutations dans la protéine Spike surviennent constamment, mais elles ne modifient pas fondamentalement les caractéristiques du virus. Si cela devait être le cas un jour – au point de rendre les vaccins basés sur la séquence actuelle inefficaces – il faudrait adapter les vaccins, par exemple en changeant simplement la molécule d'ARN messager afin qu'elle code pour la protéine mutée. Cette adaptation serait bien plus facile à réaliser que les modifications nécessaires pour adapter chaque année les vaccins contre la grippe.
-        </p>
-        <p>
-            <span class="underline-text">Combien de personnes doivent se faire vacciner pour une immunité collective?</span><br>Le but initial de la vaccination n'est pas d'éliminer le virus SARS-CoV-2, mais de protéger les personnes à risque élevé de complications. L'objectif est donc d'atteindre un taux de vaccination élevé parmi les personnes âgées, ou avec des facteurs de risques (diabète, hypertension, etc.) ainsi que chez les professionnels de santé. Lorsque suffisamment de vaccins seront disponibles, les adultes en bonne santé qui souhaitent éviter une COVID-19 pourront également être vaccinés. Mais sans qu'il ne soit nécessaire de motiver ceux qui ne souhaitent pas se faire vacciner, ou pas encore.
-        </p>
-        <p>
-            <span class="underline-text">Les questions relatives à l'efficacité qui demeurent en suspens</span>
-        </p>
-        <ul>
-            <li>la persistance de la protection obtenue dans le temps</li>
-            <li>l'efficacité parmi les populations vulnérables aux formes graves (en particulier les insuffisants rénaux et les personnes immunodéprimées)</li>
-            <li>l'efficacité chez les personnes ayant des antécédents de COVID-19</li>
-            <li>l'efficacité chez les enfants et les moins de 16 ans</li>
-            <li>l'efficacité contre les formes asymptomatiques de la COVID-19</li>
-            <li>l'efficacité contre les formes graves et l'effet sur la mortalité</li>
-            <li>l'efficacité contre les effets à long terme des infections acquises malgré le vaccin</li>
-            <li>l'efficacité sur la transmission du virus en cas de contamination d'une personne malgré le vaccin</li>
-            <li>le futur de cette efficacité si la pandémie venait à évoluer (mutations de SARS-CoV-2 par exemple)</li>
-        </ul>
-        <h3 class="subtitle">Le rapport bénéfice/risque</h3>
-        <p>
-            Comme pour tout traitement (même une simple prise de paracétamol), il faut mesurer le bénéfice attendu du traitement avec le risque qu’il peut engendrer. Aucun médicament n’a aucun effet secondaire (ou l’on appelle cela un placebo). Pour la quasi totalité des vaccins, le rapport du bénéfice apporté par rapport au risque engendré va dans le sens de la vaccination.<br>Concernant le vaccin contre la COVID 19, il n’échappe pas à ces règles.
-        </p>
-        <h2 class="title2" id="bibliographie">Références Bibliographiques</h2>
-        <ul>
-            <li><b>GISAID</b></li>
-            <ul>
-                <li><a href="https://gisaid.org/epiflu-applications/phylodynamics/" target="_blank">phylodynamics</a></li>
-            </ul>
-            <li><b>CNRS</b></li>
-            <ul>
-                <li><a href="https://lejournal.cnrs.fr/articles/quel-vaccin-contre-le-covid-19" target="_blank">Quel vaccin contre le Covid-19 ? | CNRS Le journal</a></li>
-            </ul>
-            <li><b>HAS</b></li>
-            <ul>
-                <li><a href="https://www.has-sante.fr/upload/docs/application/pdf/2020-11/rapport_-_immunite_au_cours_de_linfection_par_le_sars-cov-2_2020-11-30_17-25-10_860.pdf" target="_blank">Aspects immunologiques et virologiques de l'infection par le SARS-CoV-2</a></li>
-            </ul>
-            <li><b>New England Journal of Médecine</b></li>
-            <ul>
-                <li><a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2034577" target="_blank">Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine | NEJM</a></li>
-            </ul>
-            <li><b>US Food&Drugs FDA</b></li>
-            <ul>
-                <li><a href="https://www.fda.gov/media/144337/download" target="_blank">Vaccines and Related Biological Products Advisory Committee December 10, 2020 Presentation</a></li>
-            </ul>
-            <li><b>INFOVAC</b></li>
-            <ul>
-                <li><a href="https://www.infovac.fr/actualites/la-question-du-jour-vaccination-et-antecedent-de-guillain-barre" target="_blank">La question du jour : vaccination et antécédent de Guillain Barré</a></li>
-                <li><a href="https://www.infovac.fr/actualites/la-question-du-jour-vaccination-et-syndrome-de-guillain-barre" target="_blank">La question du jour : vaccination et syndrôme de Guillain Barré</a></li>
-                <li><a href="https://www.infovac.ch/fr/faq/developpement-d-un-vaccin" target="_blank"></a>Développement d'un vaccin</li>
-            </ul>
-            <li><b>The Lancet</b></li>
-            <ul>
-                <li><a href="https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30923-3/fulltext" target="_blank">The granting of emergency use designation to COVID-19 candidate vaccines: implications for COVID-19 vaccine trials</a></li>
-            </ul>
-            <li><b>Pfizer</b></li>
-            <ul>
-                <li><a href="https://www.fda.gov/media/144246/download" target="_blank">Vaccines and Related Biological Products Advisory Committee December 10, 2020 Meeting Briefing Document- Sponsor</a></li>
-            </ul>
-            <li><b>mes vaccins.net</b></li>
-            <ul>
-                <li><a href="https://pro.mesvaccins.net/proid/login.php" target="_blank">premier site de personnalisation des recommandations vaccinales.</a></li>
-                <li><a href="https://www.mesvaccins.net/web/components" target="_blank">Composants</a></li>
-            </ul>
-            <li><b>UK healthcare</b></li>
-            <ul>
-                <li><a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1043778/Temporary_Authorisation_HCP_Information_BNT162_19_0_UK_Clean.pdf" target="_blank">Hqrdtemplatecleanen v10.1</a></li>
-            </ul>
-            <li><b>VIDAL</b></li>
-            <ul>
-                <li><a href="https://www.vidal.fr/actualites/25914-vaccins-contre-la-covid-19-un-point-sur-les-essais-de-phase-iii-en-cours.html" target="_blank">Vaccins contre la COVID19 : un point sur les essais de phase III en cours</a></li>
-                <li><a href="https://www.vidal.fr/actualites/26364-vaccin-oxford-astrazeneca-contre-la-covid-19-rien-ne-sert-de-partir-a-point-si-c-est-pour-se-perdre-en-route.html?cid=eml_001189&id=26364&permalink=vaccin-oxford-astrazeneca-contre-la-covid-19-rien-ne-sert-de-partir-a-point-si-c-est-pour-se-perdre-en-route" target="_blank">vaccin Astra Zeneca essai</a></li>
-                <li><a href="https://www.vidal.fr/actualites/26382-vaccin-moderna-c-est-la-meme-chanson-que-le-vaccin-pfizer-biontech-avec-quelques-bemols.html?cid=Eml_000771&id=26382&permalink=vaccin-moderna-c-est-la-meme-chanson-que-le-vaccin-pfizer-biontech-avec-quelques-bemols" target="_blank">vaccin moderna (essai)</a></li>
-                <li><a href="https://www.vidal.fr/actualites/26337-vaccin-pfizer-biontech-contre-la-covid-19-enfin-des-donnees-a-analyser.html1" target="_blank">vaccin Pfizer/BioNTech</a></li>
-            </ul>
-        </ul>
-    </main>
+    <div class="container-fluid">
+        <div class="row">
+            <main id="main-content" class="col-lg-8">
+                <h1 class="title">Le vaccin contre la COVID</h1>
+                <ul class="sommaire">
+                    <li><a href="#preambule">Préambule</a></li>
+                    <li><a href="#epidemiologie">Un peu d’épidémiologie et de statistiques</a></li>
+                    <li><a href="#virologie">Un peu de virologie : le SARS-COV-2</a></li>
+                    <li><a href="#immunologie">Un peu d’immunologie : la réponse immunitaire</a></li>
+                    <li><a href="#vaccins">Les vaccins</a></li>
+                    <li><a href="#adjuvants">Les adjuvants</a></li>
+                    <li><a href="#effets-secondaires">Les effets secondaires</a></li>
+                    <li><a href="#analyse-etudes">Analyse des études des vaccins mis à disposition</a></li>
+                    <ul>
+                        <li><a href="#pfizer-biontech">Pfizer BioNTech</a></li>
+                        <li><a href="#moderna">Moderna</a></li>
+                    </ul>
+                    <li><a href="#vaccination-questions">La vaccination : qui? où? par qui? comment?</a></li>
+                    <li><a href="#questions">Les questions</a></li>
+                    <li><a href="bibliographie">Bibliographie</a></li>
+                </ul> 
+                <h2 class="title2" id="preambule">Préambule</h2>
+                <p>
+                    Mi-novembre 2020, l'Organisation mondiale de la santé a recensé plus de 200 vaccins covid-19 en cours de développement.<br>Il est crucial de disposer des données scientifiques fiables, afin d’évaluer la balance bénéfice/risque. Cet exposé élaboré par les médecins du cabinet médical repose sur des données scientifiques reconnues (HAS, INSERM, Lancet, ANSM, CNRS, FDA, Healthcare etc).<br>La vaccination contre la covid-19 a des objectifs divers :
+                </p>
+                <ul>
+                    <li>réduire la mortalité</li>
+                    <li>réduire la morbidité ou tout au moins limiter une hospitalisation en soins intensifs</li>
+                    <li>réduire les séquelles à plus ou moins long terme</li>
+                    <li>réduire la transmission et la circulation du virus</li>
+                </ul>
+                <p>Ces objectifs étant fixés, des questions se posent:</p>
+                <ul>
+                    <li>Il ne suffit pas que la vaccination soit efficace il faut aussi qu'elle expose à moins de troubles de santé que ne le ferait l'infection.</li>
+                    <li>Quels sont les types de vaccin : virus atténué, virus inactivé, protéine virale, insertion intracellulaire de matériel génétique ? Ce type de vaccin a-t-il déjà été éprouvé dans d'autres vaccins (pour d’autres maladies?) ? Quels sont les effets indésirables connus et prévisibles ?</li>
+                    <li>Le vaccin contient-il un adjuvant ? Cet adjuvant est-il déjà utilisé dans d'autres vaccins avec des effets indésirables connus ? Ou s'agit-il d'un adjuvant jamais utilisé?</li>
+                    <li>Quelles sont les données sur les effets indésirables ?</li>
+                    <li>Un suivi à plus long terme des participants aux essais a-t-il été organisé ? Chez combien de participants et pendant combien de temps ? Avec quel dispositif pour repérer des événements graves?</li>
+                </ul>
+                <p>
+                    Nous allons donc essayer de répondre ce soir à ces questions, mais avant de répondre à ces questions, nous allons faire quelques rappels de bases en épidémiologie et virologie afin de mieux comprendre les différents vaccins et les résultats des essais cliniques.
+                </p>
+                <h2 class="title2" id="epidemiologie">Un peu d'épidémiologie et de statistiques</h2>
+                <p>
+                    Il est important de savoir reconnaître les bonnes et les moins bonnes études sur les essais cliniques.<br>Les études les plus solides sont les essais comparatifs randomisés (c'est-à-dire que l'assignation au groupe traité ou à l'autre groupe se fait par un tirage au sort). Tant que l'essai n'est pas terminé, mieux vaut que les participants ne sachent pas s'ils ont reçu ou non le traitement, pour que cela n'influence pas leur comportement. Et mieux vaut que les investigateurs ne le sachent pas non plus, pour ne pas être influencés dans leur évaluation des symptômes. C'est ce qu'on nomme le "double aveugle".<br>Le groupe traité peut être comparé avec un groupe non traité (placebo) ou comparé avec groupe traité avec un traitement X.<br>Donc mieux vaut une “étude randomisée en double aveugle contre placebo” ou “étude randomisée en double aveugle versus vaccin X”.<br><br>Une autre donnée très importante est le nombre de patients et la manière dont est constituée la population: c’est ce que l’on appelle l'échantillonnage.<br>Avant l’étude, celle-ci doit se fixer des objectifs et répondre à une ou des questions: de la mortalité liée au covid-19 ? À court ou moyen terme ? du nombre de patients qui nécessitent des soins intensifs ? du nombre de patients hospitalisés pour covid-19 ? des infections, toutes gravités confondues ? etc.<br><br>Pour analyser une étude et ses éventuels biais, les questions à se poser sont :<br>L'essai est-il randomisé? Qu'ont reçu les personnes dans le groupe témoin, un placebo ou un autre vaccin? L'essai a-t-il été réalisé en double aveugle? Quels sont les critères d'évaluation choisis? Quels sont les participants de l'essai ? Quel est leur niveau d'exposition au Sars-CoV-2? S'agit-il de personnes soignantes? L'essai a-t-il été réalisé lors d'une forte ou d'une faible circulation du virus? Ou chez des personnes qui se sont volontairement exposées au virus? Des personnes à risque accru de formes graves de covid-19 ont-elles été incluses? Une évaluation a-t-elle été menée chez des personnes très âgées ou des patients immunodéprimés ? Quelle a été la durée de suivi des participants? etc.
+                </p>
+                <h2 class="title2" id="virologie">Un peu de virologie : le SARS-COV-2</h2>
+                <p>
+                    Les virus sont des micro-organismes très simples: grosso modo du matériel génétique ( ARN ou ADN) et une enveloppe sur laquelle se trouvent des protéines qui leur permettent de pénétrer des cellules dans lesquelles ils vont trouver toute la machinerie qui va leur permettre de se multiplier. Les virus à ARN ont plus tendance à muter car il y a plus d’erreurs de codage lors de la réplication de leur matériel génétique.<br><br>Le SARS-CoV-2 (acronyme de Severe Acute Respiratory Syndrome-related CoronaVirus-2) appartient à la famille des Coronavirus, il existe plusieurs milliers de coronavirus, 7 peuvent infecter l’homme, trois sont responsables de graves pneumopathies:
+                </p>
+                <ul>
+                    <li>le SARS-CoV 1, agent du syndrome respiratoire aigu sévère (SRAS) en 2002-2004</li>
+                    <li>le MERS-CoV, celui du syndrome respiratoire du Moyen-Orient à partir de 2012</li>
+                    <li>le SARS-CoV-2, celui de la COVID 2019</li>
+                </ul>
+                <p>
+                    Les autres coronavirus ne se répliquent qu’au niveau des Voies Aériennes Respiratoires Supérieures (VARS) et sont responsables de simples rhumes.<br>Les coronavirus sont des virus à ARN avec des protéines de surface Protéine S (S pour Spike) formant une couronne d'où son nom.<br>Autre détail important pour la vaccination: le virus subit des mutations, mais plus lentes que pour la majorité des virus à ARN (deux fois moins que le virus de la grippe).
+                </p>
+                <h2 class="title2" id="immunologie">Un peu d’immunologie</h2>
+                <p>
+                    Le principe de la vaccination est toujours le même : il s’agit de présenter un pathogène (virus, parasite ou bactérie) à notre système immunitaire afin qu’il apprenne à le reconnaître et à fabriquer des anticorps spécifiques qui seront prêts à le neutraliser lorsque nous le rencontrerons dans la vraie vie.<br><br>
+                    En réalité, ce n’est pas le pathogène qui déclenche la réponse immunitaire, mais les protéines qui se trouvent à la surface du virus: les antigènes. Ces antigènes sont la clé qui permet au virus de pénétrer dans la cellule pour se reproduire et provoquer les symptômes de la maladie.<br>Concernant les coronavirus, l’antigène est la protéine S que nous venons de décrire.<br>Actuellement plus de 180 types de vaccins différents sont en cours d’étude.
+                </p>
+                <h2 class="title2" id="vaccins">Les différents vaccins</h2>
+                <p>
+                    L’idée du vaccin est d’inoculer le pathogène sous une forme inoffensive. Plusieurs techniques sont possibles l’utilisation du virus entier rendu inoffensif, aux techniques plus récentes comme les vaccins à ADN ou ARN.<br><br>Selon leur mode de préparation, on distingue plusieurs catégories de vaccins :
+                </p>
+                <h3 class="subtitle">Les vaccins vivants atténués:</h3>
+                <p>
+                    Les germes perdent leur pouvoir pathogène en conservant leur pouvoir immunogène. Vaccin bactériens (BCG) ou viraux (rougeole oreillons rubéole, poliomyélite orale, fievre jaune, varicelle ou la gastro-entérite).<br>Le plus souvent une seule injection.<br>Inconvénient ils peuvent garder une certaine pathogénicité (cf retrait Rotavax).
+                </p>
+                <h3 class="subtitle">Les vaccins inactivés tués:</h3>
+                <p>
+                    Bactériens (coqueluche dit à germe entier), ou viraux (poliomyélite injectable, rage, grippe, hépatite A).<br>Ils sont complètement inactivés et ne peuvent pas se reproduire.<br>Ils nécessitent des adjuvants pour conserver leur pouvoir immunogène.<br>Ils sont assez faciles à fabriquer, avec le bémol des règles de biosécurité<br>La limite de vitesse de fabrication est celle de la vitesse de multiplication des virus.<br>Nécessite plusieurs injections.
+                </p>
+                <h3 class="subtitle">Les vaccins sous unités ou à fractions antigéniques purifiées:</h3>
+                <p>
+                    Ils ne sont constitués que par une fraction du germe qui induit des anticorps.<br>Bactériens; constitués de protéines: les anatoxines diphtérique ou tétanique ou constitués de polyosides, sucres constituant la capsule des bactéries (Haemophilus influenzae b, pneumocoques, méningocoques, Salmonelle).<br>Viraux; l’antigène est fabriqué par génie génétique puis purifié pour servir de base aux vaccins on parle de vaccin recombinant (hépatite B, papillomavirus)
+                </p>
+                <h3 class="subtitle">La recherche et le développement sur les vaccins se fait en 4 phases, comme pour tous les médicaments:</h3>
+                <ul>
+                    <li>La phase I pour s'assurer de l’innocuité</li>
+                    <li>La phase II détermine aussi la qualité et la durée de la réponse immunitaire</li>
+                    <li>La phase III efficacité et bénéfices/risques</li>
+                    <li>La phase IV est la phase de pharmacovigilance </li>
+                </ul>
+                <p>
+                    Toutes ces pistes sont actuellement exploitées dans la recherche d’un vaccin contre le Covid-19.
+                </p>
+                <h3 class="subtitle">Les pistes pour un vaccin contre le Sars-Cov-19</h3>
+                <h4 class="subtitle2">les vaccins inactivés</h4> 
+                <p>
+                    C’est la voie suivie par plusieurs laboratoires chinois (Coronavac) en phase 3.
+                </p>
+                <h4 class="subtitle2">les vaccins à virus atténué</h4>
+                <p>
+                    Ils pourraient être injectés par voie nasale ce qui pourrait induire une réponse immunitaire au niveau des muqueuses en phase 2
+                </p> 
+                <h4 class="subtitle2">les vaccins à vecteur viral</h4>
+                <p>
+                    Là il s’agit d'accrocher la protéine spike sur des virus autres que le Covid, anodins pour l’homme, mais qui vont pouvoir se développer dans les cellules humaines pour faire fabriquer à l’organisme des anticorps contre cette protéine.<br>On utilise un vrai virus, des adénovirus, le virus du rhume ( C’est le choix fait pour le vaccin russe Spoutnik V, Janssen, Cansino ou AstraZeneca) ou le virus de la rougeole (c’est le choix de l’institut Pasteur).<br>Il est possible qu’une seule dose de ce type de vaccin suffise.<br>Ce type  de vaccin pourrait éventuellement être fabriqué sur les mêmes chaînes de fabrication que celles de la grippe, donc avec une infrastructure de fabrication opérationnelle.
+                </p>
+                <h4 class="subtitle2">les vaccins à base de protéines</h4>
+                <p>
+                    On utilise la protéine Spike comme antigène pour provoquer la réponse immunitaire. Il faut utiliser un adjuvant pour que  l’association adjuvant-antigène soit reconnue comme un corps étranger.<br>Le laboratoire Sanofi allié au laboratoire GlaxoSmithKline ont choisi cette voie.<br><span class="underline-text">Avantage</span>: on n’est pas obligé de manipuler des virus vivants pour les fabriquer.<br><span class="underline-text">Inconvénient</span>: la protéine spike n’est pas si simple que ça à fabriquer, cela peut rendre le processus plus lent et complexe que pour un vaccin à virus entier;
+                </p>
+                <h4 class="subtitle2">Les vaccins à ADN/ARN</h4>
+                <p>
+                    L’idée est de la faire produire directement la protéine S par le corps humain pour déclencher la réponse immunitaire.<br>Problème, l’ADN ou l’ARN sont dégradés à peine entrés dans l’organisme. Il lui faut un “véhicule” capable de l’y transporter.
+                </p>
+                <h5 class="subtitle3">a/ vaccin à ADN:</h5>
+                <p>
+                    <span class="underline-text">Avantages</span>: cet ADN est très stable, il peut se produire à grande échelle.<br><span class="underline-text">Inconvénients</span>: on interfère sur l’ADN, l’immunité que l’on développe est faible, il faudra des rappels.<br>Un laboratoire canadien et un laboratoire japonais sont en phase 3.
+                </p>
+                <h5 class="subtitle3">b/ vaccin à ARN:</h5>
+                <p>
+                    Même principe, ce type de vaccin est délivré via des nanoparticules. C’est l’option prise par le laboratoire Pfizer / BioNTech, ou encore par Moderna.<br><span class="underline-text">Avantages</span>: ce vaccin ne peut pas être source d’infection puisqu’il ne contient pas de virus. L’ARN se dégrade et disparaît quand il a joué son rôle. Il suffit de très petites doses d’ARN puisque ce sont les cellules humaines qui, via cet ARN, vont fabriquer les protéines Spike, puis les anticorps contre cette protéine grâce aux cellules immunitaires.<br><span class="underline-text">Inconvénients</span>: ce type de vaccin est tout nouveau, pas de référence technologique et surtout le stockage pose problème (très basses températures nécessaires).<br>Ils sont en phase 4.
+                </p>
+                <h2 class="title2" id="adjuvants">Les adjuvants</h2>
+                <h3 class="subtitle">Quel est le rôle des adjuvants?</h3>
+                <p>
+                    Des adjuvants sont ajoutés à la fabrication des vaccins inactivés pour augmenter la réponse immunitaire. Ils permettent aussi de réduire la quantité d’antigène par dose, de réduire le nombre de doses nécessaires pour assurer une bonne immunisation.<br>Les vaccins vivants atténués (comme ROR, Fievre jaune, tuberculose...) ne nécessitent pas d’adjuvant.<br>De nombreux vaccins inactivés notamment les vaccins combinés (revaxis, infanrix boostrix etc), les vaccins contre l’hépatite B, les vaccins contre la méningite contiennent des sels d’aluminium. C’est l’adjuvant le plus utilisé dans le monde depuis plus de 90 ans et des centaines de millions de doses injectées.<br>
+                </p>
+                <h2 class="title2" id="effets-secondaires">Les effets secondaires</h2>
+                <p>
+                    Passons sur les effets secondaires banaux : fièvre, myalgies, asthénie, liés, non pas à une infection, (vous l’avez compris on injecte pas le plus souvent la maladie) mais lié à la réponse immunitaire.<br>Nous allons parler de 2 syndrômes: la myofasciite à macrophage et le syndrome de Guillain Barré.
+                </p>
+                <h3 class="subtitle">La myofasciite à macrophage.</h3>
+                <p>
+                    En 1993 un neurologue français a décrit une infiltration de macrophages autour des muscles dans le cadre de biopsies associé à un syndrome asthénie myalgie arthralgie qu’il attribue à l’aluminium au point d’injection ( une étude ayant durée 15 ans a retrouvé 515 cas de MFM). Cette “pathologie” est une spécificité française.<br>Ce “tatouage vaccinal” ne reflète pas une atteinte inflammatoire musculaire et n’est pas associée à une maladie spécifique. L’hypothèse de biais d’échantillonnage inhérents à la forte prévalence et à la faible spécificité des symptômes au sein d’une population majoritairement vaccinée avec des adjuvants reste l’hypothèse la plus probable.<br>
+                </p>
+                <h3 class="subtitle">Le syndrome de Guillain-Barré</h3>
+                <p>
+                    Le syndrome de Guillain-Barré (polynévrite sensitive et motrice le plus souvent temporaire ) est rare 2,8 cas pour 100.000 habitants 2 fois sur 3 il survient après une maladie infectieuse (4 à 7 cas pour 100.000 grippe mais aussi GEA ) et de façon plus exceptionnelle après vaccinations ( 1 cas pour 1.000.000 de vacciné) sans qu'un lien de causalité ait été clairement démontré. Une susceptibilité génétique individuelle concernant les cas avec récidives de Guillain Barré est probable, mais on n’en connaît pas le substrat à ce jour.
+                </p>
+                <h2 class="title2" id="pfizer-biontech">Vaccin Pfizer BioNTech: Cominarty</h2>
+                <p>C’ est un vaccin à ARN messager (ARNm), sans adjuvant.</p>
+                <h3 class="subtitle">Conservation</h3>
+                <p>6 mois à -80°C, 5 jours entre 2 et 8°C, 2h à température ambiante.</p>
+                <h3 class="subtitle">Essai</h3>
+                <p>
+                    Il s’agit d’un essai randomisé en double aveugle contre placebo (2 groupes égaux) avec deux doses de 30 µg d’ARNm espacé de 3 semaines ou de placebo qui a inclus 44000 participants de 16 ans à 85 ans, âge moyen 50,2 ans. La moyenne de suivi après la 2ème dose a été de 2 mois. critère d’efficacité: incidence des cas de COVID-19 après 7j.
+                </p>
+                <h3 class="subtitle">Efficacité</h3>
+                <p>
+                    La moyenne des titres d'anticorps mesurés chez les vaccinés était du même niveau ou supérieure à celle déterminée dans des sérums de convalescents guéris de la COVID 19. Par ailleurs, le vaccin a induit une forte réponse cellulaire.<br>L'efficacité vaccinale est de 52% après la première dose et 95 % 7 jours après l'injection de la 2ème dose.<br>L'analyse des sous-groupes présentant une comorbidité (diabete, hypertendu BPCO, obèse) montre un taux de protection similaire.<br>L’efficacité sur les formes sévères n’a pu être établie (0 cas dans le groupe vacciné 30 cas dans le groupe placebo). Il en est de même pour les plus de 75 ans (échantillon insuffisant).
+                </p>
+                <h3 class="subtitle">Effets secondaires</h3>
+                <p>
+                    Les effets secondaires les plus fréquents ont été des réactions autour du point d'injection dans le bras (84,1%), une fatigue (62,9%), des maux de tête (55,1%), des courbatures (38,3%), des frissons (31,9%), des douleurs dans les articulations (23,6%), et une fièvre (14,2%). Des réactions sévères se sont produites chez 0 à 4,6% des participants et étaient moins fréquentes chez les personnes de plus de 55 ans (2,8%) que chez les jeunes (4,6%).<br>Ils ont été plus marqués dans le groupe "vaccin" que dans le groupe "placebo" , plus fréquents et plus intenses après la 2ème dose.<br>Les effets indésirables graves, c'est-à-dire requérant par exemple une hospitalisation, étaient très rares dans l'ensemble de l'essai clinique (moins de 0,5%) et il y en a eu autant dans le groupe placebo que dans le groupe de personnes vaccinées, suggérant que le vaccin n'était pas en cause.<br>Des effets indésirables, de nature allergique, ont été observés parmi les premiers vaccinés au Royaume-Uni.
+                </p>
+                <h2 class="title2" id="moderna">Vaccin Moderna</h2>
+                <p>C’est un vaccin à ARN messager (ARNm), sans adjuvant.</p>
+                <h3 class="subtitle">Conservation</h3>
+                <p>
+                    7 mois à -20°C (stockage longue durée), puis entre 2 et 8°C pendant 1 mois, 6 heures après ouverture. 10 doses par flacon sans dilution.
+                </p>
+                <h3 class="subtitle">Essai</h3>
+                <p>
+                    Il s’agit d’un essai randomisé en double aveugle contre placebo avec 3 sous groupes (18-64 ans sans facteur de risque, 18-64 ans avec facteur de risque et plus de 65 ans) avec deux doses de 100 µg d’ARNm espacé de 4 semaines ou de placebo. II a inclus 36600 participants de plus de 18 ans, âge moyen 52 ans. Le suivi après la 2ème dose a été de 53 à 60 jours. Le critère d’efficacité: incidence des cas de COVID-19 après 14j.
+                </p>
+                <h3 class="subtitle">Efficacité</h3>
+                <p>
+                    On retrouve la même efficacité.<br>L'efficacité vaccinale est de 80% après la première dose et 94 % 14 jours après l'injection de la 2ème dose.<br>L'analyse des 3 sous-groupes montre un taux de protection similaire.<br>L’efficacité sur les formes sévères n’a pu être établie. là aussi impossible de se prononcer pour les plus de 75 ans (nombre de cas insuffisant).
+                </p>
+                <h3 class="subtitle">Effets secondaires</h3>
+                <p>
+                    La fatigue a été rapportée chez 68,5 % des sujets du groupe vacciné et 36,1 % du groupe placebo;<br>Les maux de tête chez 63 % versus 36,5 %;<br>Les courbatures chez 59,6 % versus 20,1 %;<br>Les douleurs articulaires chez 44,8 % versus 17,2 %;<br>Les frissons chez 43,4 % versus 9,5 %;<br>La fièvre chez 14,8 % versus 0,6 %.
+                </p>
+                <h3 class="subtitle">Surveillance</h3>
+                <p>
+                    Outre les déclarations au centre de pharmacovigilance, l'ANSM met en place un dispositif de surveillance renforcée des effets indésirables des vaccins. Le système s'appuie sur un carnet de vaccination électronique sur monvaccin.net grâce à un modèle citoyen participatif de renforcement de la pharmacovigilance Celui-ci consiste à envoyer à chaque personne vaccinée, un email ou un SMS permettant de collecter l’information sur la survenue ou la non survenue d’un événement indésirable post-vaccinal.<br>Notons que les effets secondaires les plus souvent observés sont les mêmes que ceux que l’on peut observer avec le vaccin grippal...
+                </p>
+                <h2 class="title2" id="vaccination-questions">Le plan de vaccination : qui? où? par qui? comment?</h2>
+                <h3 class="subtitle">Qui?</h3>
+                <p>
+                    Janvier-février: patient et personnel soignant à risque dans les EHPAD<br>Février-Mars : patients de plus de 75 ans puis 65 ans puis soignant de plus de 50 ans<br>Au printemps: les 50-65 ans , les personnels des secteurs essentiels, les personnes vulnérable et précaire.<br>Cet été: le reste de la population. <span class="underline-text">Contre indication</span> : enfant de moins de 16 ans, grossesse, patient immunodéprimé (pas encore d’étude pour ces populations), COVID de moins de 3 mois.
+                </p>
+                <h3 class="subtitle">Ou?</h3>
+                <p>Tout le problème de la logistique avec les vaccins à ARN…</p>
+                <h3 class="subtitle">Par qui?</h3>
+                <p>Dans un premier temps les vaccins seront effectué par les médecins ou en présence d’un médecin, le risque bien qu'exceptionnel est le choc anaphylactique qui nécessite un traitement immédiat (1 mg d’ADRENALINE toutes les 1 à 2 minutes puis 5 mg à partir de la 3ème injection).</p>
+                <h3 class="subtitle">Comment?</h3>
+                <p>Voie IM, Deltoïde de préférence.<br>2 injection J0 et J21 pour Cominarty et J28 pour Moderna.</p>
+                <h2 class="title2" id="questions">Les questions</h3>
+                <p>
+                    <span class="underline-text">Le consentement des patients alzheimer où la famille n'est pas présente on fait comment?</span><br>Excellente question, cela va être très compliqué, mais ce sera au médecin d’avoir ce consentement.
+                </p>
+                <p>
+                    <span class="underline-text">Effet secondaire? Patient ayant une insuffisance rénale?</span><br>Aucune étude chez l'insuffisant rénal.
+                </p>
+                <p>
+                    <span class="underline-text">Effets secondaires à court et long terme?</span><br>On ne sait pas pour les effets à long terme mais comme pour toute vaccination les effets sont généralement connus dans les premières semaines.
+                </p>
+                <p>
+                    <span class="underline-text">Les pharmaciens sont-ils habilités à vacciner comme pour la grippe?</span> Pour le moment non mais j’espère que cela viendra très vite.
+                </p>
+                <p>
+                    <span class="underline-text">Pour les personnes très allergiques, le vaccin est-il conseillé ?</span><br>On considère une personne très allergique une personne qui a besoin d’adrénaline sur lui, ces personnes pour le moment ne seront pas vaccinées.
+                </p>
+                <p>
+                    <span class="underline-text">De quoi est réellement composé le vaccin ?</span><br>Un vaccin=un antigène + un adjuvant + excipient + parfois un conservateur (parfois).
+                </p>
+                <p>
+                    <span class="underline-text">Comment se fait-il que l’on puisse faire un vaccin aussi rapidement avec une nouvelle technologie ARN messager inconnue?</span><br>Katalin Kariko dans les années 1990 a été la pionnière dans l’utilisation de l’ARN messager. A l’origine l’idée était de faire fabriquer par l’organisme des médicaments, des protéines, des hormones pour traiter le cancer, des maladies dégénératives, le diabète etc.<br>Depuis 10 ans des sociétés veulent révolutionner l'industrie du médicament avec l'ARN modifié: Moderna ( MODifiEd RNA) BioNTech et Curevac.<br>L’épidémie de la COVID 19 a été un catalyseur.<br>Les alliances avec des laboratoires pharmaceutiques, les milliards des états ont fait le reste.<br>Katalin Kariko: retenez ce nom, je pense que ce sera le prochain prix nobel.<br>Par ailleurs, entre 2002 et 2004, à la suite de l’épidémie de Sars-CoV 1 (SRAS), ainsi que de celle du Mers-CoV, des recherches sur les coronavirus ont débuté, elles ont permis de mettre en évidence la protéine Spike comme cible éventuelle pour un vaccin. Comme cette maladie a disparu d’elle-même, aucun vaccin n’a été mis au point. Par contre, ces recherches passées ont permis dès le début 2020 de reprendre où les recherches s’étaient arrêtées, c’est pourquoi on peut avoir l’impression un peu inquiétante que les vaccins actuellement proposés l’ont été de manière trop rapide.
+                </p>
+                <p>
+                    <span class="underline-text">Quels sont les risques spécifiques des vaccins à ARN messager?</span><br>Un vaccin à ARN messager est le vaccin dont le mécanisme d'infection ressemble le plus à celui du virus naturel : c'est un morceau de code génétique à traduire en protéine, entouré d'une capsule de lipides pour pouvoir entrer dans les cellules humaines. Mais, à la différence du virus complet, ce type de vaccin contient UNIQUEMENT l'ARN messager qui code pour la protéine de surface du virus (Spike) – il ne contient pas le matériel génétique nécessaire pour fabriquer un virus complet capable ensuite de se multiplier et de provoquer un COVID-19 maladie.
+                </p>
+                <p>
+                    <span class="underline-text">N'est-il pas dangereux d'injecter de l'ARN messager en forçant le corps à fabriquer la protéine de surface du coronavirus ?</span><br>C'est un processus très naturel puisque c'est ce qui se passe à chaque rhume, à chaque grippe, à chaque infection virale... pendant lesquelles les virus forcent le corps à fabriquer des milliards de protéines ainsi que le matériel génétique nécessaire à la production de virus entiers.
+                </p>
+                <p>
+                    <span class="underline-text">Les vaccins à ARN messager peuvent-ils modifier notre propre code génétique?</span><br>Les ARN messagers ne sont pas transcrits en ADN; ils sont directement lus et transcrits en protéines par les ribosomes dans le cytoplasme des cellules humaines qui les prennent en charge. Les ARN messagers viraux n'ont aucun moyen d'entrer dans le noyau d'une cellule humaine qui contient notre propre ADN/code génétique.
+                </p>
+                <p>
+                    <span class="underline-text">Les vaccins à ARN messager sont-ils de la thérapie génique ?</span><br>La thérapie génique est une stratégie de traitement qui consiste à faire pénétrer des gènes (= de l’ADN) dans les cellules d'une personne pour corriger un problème génétique et traiter une maladie. Les vaccins à ARN messager ne changent rien au génome humain.
+                </p>
+                <p>
+                    <span class="underline-text">Combien de temps l'ARN messager contenu dans le vaccin reste-t-il dans l'organisme ? Et quel est le devenir de ses produits de dégradation ?</span><br>Chaque cellule de notre organisme contient de nombreuses enzymes qui dégradent rapidement les ARN messagers. Il est actuellement estimé que l'ARN messager viral ne persiste pas plus de 1-2 jours après l'injection.
+                </p>
+                <p>
+                    <span class="underline-text">Les vaccins de Pfizer et de Moderna contiennent des nanoparticules lipidiques; posent-elles des risques ?</span><br>On appelle nanoparticules toutes les particules de taille comprise entre 1 et 100 nanomètres. Les nanoparticules de lipides utilisées dans les vaccins sont constituées de lipides similaires à ceux que l'on trouve dans le corps humain;
+                </p>
+                <p>
+                    <span class="underline-text">Que se passera-t-il si le virus mute ? notamment au niveau de la protéine S?</span><br>Les mutations dans la protéine Spike surviennent constamment, mais elles ne modifient pas fondamentalement les caractéristiques du virus. Si cela devait être le cas un jour – au point de rendre les vaccins basés sur la séquence actuelle inefficaces – il faudrait adapter les vaccins, par exemple en changeant simplement la molécule d'ARN messager afin qu'elle code pour la protéine mutée. Cette adaptation serait bien plus facile à réaliser que les modifications nécessaires pour adapter chaque année les vaccins contre la grippe.
+                </p>
+                <p>
+                    <span class="underline-text">Combien de personnes doivent se faire vacciner pour une immunité collective?</span><br>Le but initial de la vaccination n'est pas d'éliminer le virus SARS-CoV-2, mais de protéger les personnes à risque élevé de complications. L'objectif est donc d'atteindre un taux de vaccination élevé parmi les personnes âgées, ou avec des facteurs de risques (diabète, hypertension, etc.) ainsi que chez les professionnels de santé. Lorsque suffisamment de vaccins seront disponibles, les adultes en bonne santé qui souhaitent éviter une COVID-19 pourront également être vaccinés. Mais sans qu'il ne soit nécessaire de motiver ceux qui ne souhaitent pas se faire vacciner, ou pas encore.
+                </p>
+                <p>
+                    <span class="underline-text">Les questions relatives à l'efficacité qui demeurent en suspens</span>
+                </p>
+                <ul>
+                    <li>la persistance de la protection obtenue dans le temps</li>
+                    <li>l'efficacité parmi les populations vulnérables aux formes graves (en particulier les insuffisants rénaux et les personnes immunodéprimées)</li>
+                    <li>l'efficacité chez les personnes ayant des antécédents de COVID-19</li>
+                    <li>l'efficacité chez les enfants et les moins de 16 ans</li>
+                    <li>l'efficacité contre les formes asymptomatiques de la COVID-19</li>
+                    <li>l'efficacité contre les formes graves et l'effet sur la mortalité</li>
+                    <li>l'efficacité contre les effets à long terme des infections acquises malgré le vaccin</li>
+                    <li>l'efficacité sur la transmission du virus en cas de contamination d'une personne malgré le vaccin</li>
+                    <li>le futur de cette efficacité si la pandémie venait à évoluer (mutations de SARS-CoV-2 par exemple)</li>
+                </ul>
+                <h3 class="subtitle">Le rapport bénéfice/risque</h3>
+                <p>
+                    Comme pour tout traitement (même une simple prise de paracétamol), il faut mesurer le bénéfice attendu du traitement avec le risque qu’il peut engendrer. Aucun médicament n’a aucun effet secondaire (ou l’on appelle cela un placebo). Pour la quasi totalité des vaccins, le rapport du bénéfice apporté par rapport au risque engendré va dans le sens de la vaccination.<br>Concernant le vaccin contre la COVID 19, il n’échappe pas à ces règles.
+                </p>
+                <h2 class="title2" id="bibliographie">Références Bibliographiques</h2>
+                <ul>
+                    <li><b>GISAID</b></li>
+                    <ul>
+                        <li><a href="https://gisaid.org/epiflu-applications/phylodynamics/" target="_blank">phylodynamics</a></li>
+                    </ul>
+                    <li><b>CNRS</b></li>
+                    <ul>
+                        <li><a href="https://lejournal.cnrs.fr/articles/quel-vaccin-contre-le-covid-19" target="_blank">Quel vaccin contre le Covid-19 ? | CNRS Le journal</a></li>
+                    </ul>
+                    <li><b>HAS</b></li>
+                    <ul>
+                        <li><a href="https://www.has-sante.fr/upload/docs/application/pdf/2020-11/rapport_-_immunite_au_cours_de_linfection_par_le_sars-cov-2_2020-11-30_17-25-10_860.pdf" target="_blank">Aspects immunologiques et virologiques de l'infection par le SARS-CoV-2</a></li>
+                    </ul>
+                    <li><b>New England Journal of Médecine</b></li>
+                    <ul>
+                        <li><a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2034577" target="_blank">Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine | NEJM</a></li>
+                    </ul>
+                    <li><b>US Food&Drugs FDA</b></li>
+                    <ul>
+                        <li><a href="https://www.fda.gov/media/144337/download" target="_blank">Vaccines and Related Biological Products Advisory Committee December 10, 2020 Presentation</a></li>
+                    </ul>
+                    <li><b>INFOVAC</b></li>
+                    <ul>
+                        <li><a href="https://www.infovac.fr/actualites/la-question-du-jour-vaccination-et-antecedent-de-guillain-barre" target="_blank">La question du jour : vaccination et antécédent de Guillain Barré</a></li>
+                        <li><a href="https://www.infovac.fr/actualites/la-question-du-jour-vaccination-et-syndrome-de-guillain-barre" target="_blank">La question du jour : vaccination et syndrôme de Guillain Barré</a></li>
+                        <li><a href="https://www.infovac.ch/fr/faq/developpement-d-un-vaccin" target="_blank"></a>Développement d'un vaccin</li>
+                    </ul>
+                    <li><b>The Lancet</b></li>
+                    <ul>
+                        <li><a href="https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30923-3/fulltext" target="_blank">The granting of emergency use designation to COVID-19 candidate vaccines: implications for COVID-19 vaccine trials</a></li>
+                    </ul>
+                    <li><b>Pfizer</b></li>
+                    <ul>
+                        <li><a href="https://www.fda.gov/media/144246/download" target="_blank">Vaccines and Related Biological Products Advisory Committee December 10, 2020 Meeting Briefing Document- Sponsor</a></li>
+                    </ul>
+                    <li><b>mes vaccins.net</b></li>
+                    <ul>
+                        <li><a href="https://pro.mesvaccins.net/proid/login.php" target="_blank">premier site de personnalisation des recommandations vaccinales.</a></li>
+                        <li><a href="https://www.mesvaccins.net/web/components" target="_blank">Composants</a></li>
+                    </ul>
+                    <li><b>UK healthcare</b></li>
+                    <ul>
+                        <li><a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1043778/Temporary_Authorisation_HCP_Information_BNT162_19_0_UK_Clean.pdf" target="_blank">Hqrdtemplatecleanen v10.1</a></li>
+                    </ul>
+                    <li><b>VIDAL</b></li>
+                    <ul>
+                        <li><a href="https://www.vidal.fr/actualites/25914-vaccins-contre-la-covid-19-un-point-sur-les-essais-de-phase-iii-en-cours.html" target="_blank">Vaccins contre la COVID19 : un point sur les essais de phase III en cours</a></li>
+                        <li><a href="https://www.vidal.fr/actualites/26364-vaccin-oxford-astrazeneca-contre-la-covid-19-rien-ne-sert-de-partir-a-point-si-c-est-pour-se-perdre-en-route.html?cid=eml_001189&id=26364&permalink=vaccin-oxford-astrazeneca-contre-la-covid-19-rien-ne-sert-de-partir-a-point-si-c-est-pour-se-perdre-en-route" target="_blank">vaccin Astra Zeneca essai</a></li>
+                        <li><a href="https://www.vidal.fr/actualites/26382-vaccin-moderna-c-est-la-meme-chanson-que-le-vaccin-pfizer-biontech-avec-quelques-bemols.html?cid=Eml_000771&id=26382&permalink=vaccin-moderna-c-est-la-meme-chanson-que-le-vaccin-pfizer-biontech-avec-quelques-bemols" target="_blank">vaccin moderna (essai)</a></li>
+                        <li><a href="https://www.vidal.fr/actualites/26337-vaccin-pfizer-biontech-contre-la-covid-19-enfin-des-donnees-a-analyser.html1" target="_blank">vaccin Pfizer/BioNTech</a></li>
+                    </ul>
+                </ul>
+        
+            </main>
+            <aside id="aside-content" class="col-lg-4">
+                <article class="aside-article aa1">
+                    <div class="aside-article-content">
+                        <h2 class="aside-title">Prendre un rdv</h2>
+                        <p class="aside-article-text">Pour prendre rendez-vous avec un médecin de votre MSP</p>
+                        <div class="text-center">
+                            <button class="aside-button"><a href="/consult.html">Visiter la page</a></button>
+                        </div>
+                    </div>
+                </article>
+                <article class="aside-article aa2">
+                    <div class="aside-article-content">
+                        <h2 class="aside-title">Médecin de garde</h2>
+                        <p class="aside-article-text">Coordonnées des médecins de garde du secteur</p>
+                        <div class="text-center">
+                            <button class="aside-button"><a href="/medgarde.html">Visiter la page</a></button>
+                        </div>
+                    </div>
+                </article>
+                <article class="aside-article aa3">
+                    <div class="aside-article-content">
+                        <h2 class="aside-title">Informations COVID</h2>
+                        <p class="aside-article-text">Réponses à vos questions concernant le COVID</p>
+                        <div class="text-center">
+                            <button class="aside-button"><a href="/info-covid.html">Visiter la page</a></button>
+                        </div>
+                    </div>
+                </article>
+            </aside>
+        </div>
+    </div>
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>

@@ -67,44 +67,77 @@
         </div>
     </nav>
 <!-- Contenu principal de la page -->
-    <main>
-        <h1 class="title">Des courbes sont plus parlantes que des chiffres...</h1>
-        <p>
-            L'âge avancé (à partir de 60 ans) est considéré depuis le début de la pandémie comme un facteur de risque majeur de forme grave de COVID. Cumulé avec l'absence de vaccination, ce facteur de risque est confirmé en termes d'hospitalisation, en comparaison à une population vaccinée (cf. Figure 2).  
-        </p>
-        <p>
-            Au sein de la population vaccinée de 60 à 80 ans, des différences sont également observées entre les personnes ayant reçu un rappel et les autres. Les premières sont moins représentées dans les événements liés à la COVID-19, soulignant l'intérêt de la dose de rappel.
-        </p>
-        <div>
-            <div>
-                <p class="underline-text">
-                    Nombre de tests PCR et d'événements hospitaliers à taille de population comparable par statut vaccinal pour les personnes de 60 à 79 ans et de 80 ans et plus.
+    <div class="container-fluid">
+        <div class="row">
+            <main id="main-content" class="col-lg-8">
+                <h1 class="title">Des courbes sont plus parlantes que des chiffres...</h1>
+                <p>
+                    L'âge avancé (à partir de 60 ans) est considéré depuis le début de la pandémie comme un facteur de risque majeur de forme grave de COVID. Cumulé avec l'absence de vaccination, ce facteur de risque est confirmé en termes d'hospitalisation, en comparaison à une population vaccinée (cf. Figure 2).  
                 </p>
-            </div>
-            <div class="courbe-vaccin">
-                <img src="/pictures/legende.png" alt="légende des courbes">
-            </div>
-            <div class="courbe-vaccin">
-                <img src="/pictures/courbe1.png" alt="courbe personnes agées de 60 à 79ans">
-            </div>
-            <div class="courbe-vaccin">
-                <img src="/pictures/courbe2.png" alt="courbe personnes âgées de 80ans et plus">
-            </div>
+                <p>
+                    Au sein de la population vaccinée de 60 à 80 ans, des différences sont également observées entre les personnes ayant reçu un rappel et les autres. Les premières sont moins représentées dans les événements liés à la COVID-19, soulignant l'intérêt de la dose de rappel.
+                </p>
+                <div>
+                    <div>
+                        <p class="underline-text">
+                            Nombre de tests PCR et d'événements hospitaliers à taille de population comparable par statut vaccinal pour les personnes de 60 à 79 ans et de 80 ans et plus.
+                        </p>
+                    </div>
+                    <div class="courbe-vaccin">
+                        <img src="/pictures/legende.png" alt="légende des courbes">
+                    </div>
+                    <div class="courbe-vaccin">
+                        <img src="/pictures/courbe1.png" alt="courbe personnes agées de 60 à 79ans">
+                    </div>
+                    <div class="courbe-vaccin">
+                        <img src="/pictures/courbe2.png" alt="courbe personnes âgées de 80ans et plus">
+                    </div>
+                </div>
+                <p>
+                    Dans la population des non vaccinés, deux phénomènes associés à l'âge peuvent être observés:
+                </p>
+                <ul>
+                    <li>les adultes non vaccinés de moins de 40 ans présentent un risque accru de test RT-PCR positif symptomatique. En comparaison aux autres personnes non vaccinées, ce risque est supérieur de 50 %. L'intensité des interactions sociales pour les jeunes adultes pourrait expliquer cette tendance;</li>
+                    <li>concernant le risque d'hospitalisation parmi les personnes non vaccinées, il croît avec l'âge; en comparaison aux autres personnes non vaccinées, le risque d'hospitalisation en soins critiques est multiplié par 2 chez les 60 - 79 ans. Quant au risque d'hospitalisation conventionnelle, il est maximal chez les 80 ans et plus.</li>
+                </ul>
+                <div>
+                    <p class="underline-text">Risques relatifs de test positif symptomatique et d'hospitalisation selon l'âge chez les non-vaccinés</p>
+                </div>
+                <div class="courbe-vaccin">
+                    <img src="/pictures/courbe3.png" alt="courbe risques relatifs de test positif symptomatique et d'hospitalisation selon l'âge chez les non vaccinés">
+                </div>        
+            </main>
+            <aside id="aside-content" class="col-lg-4">
+                <article class="aside-article aa1">
+                    <div class="aside-article-content">
+                        <h2 class="aside-title">Prendre un rdv</h2>
+                        <p class="aside-article-text">Pour prendre rendez-vous avec un médecin de votre MSP</p>
+                        <div class="text-center">
+                            <button class="aside-button"><a href="/consult.html">Visiter la page</a></button>
+                        </div>
+                    </div>
+                </article>
+                <article class="aside-article aa2">
+                    <div class="aside-article-content">
+                        <h2 class="aside-title">Médecin de garde</h2>
+                        <p class="aside-article-text">Coordonnées des médecins de garde du secteur</p>
+                        <div class="text-center">
+                            <button class="aside-button"><a href="/medgarde.html">Visiter la page</a></button>
+                        </div>
+                    </div>
+                </article>
+                <article class="aside-article aa3">
+                    <div class="aside-article-content">
+                        <h2 class="aside-title">Informations COVID</h2>
+                        <p class="aside-article-text">Réponses à vos questions concernant le COVID</p>
+                        <div class="text-center">
+                            <button class="aside-button"><a href="/info-covid.html">Visiter la page</a></button>
+                        </div>
+                    </div>
+                </article>
+            </aside>
         </div>
-        <p>
-            Dans la population des non vaccinés, deux phénomènes associés à l'âge peuvent être observés:
-        </p>
-        <ul>
-            <li>les adultes non vaccinés de moins de 40 ans présentent un risque accru de test RT-PCR positif symptomatique. En comparaison aux autres personnes non vaccinées, ce risque est supérieur de 50 %. L'intensité des interactions sociales pour les jeunes adultes pourrait expliquer cette tendance;</li>
-            <li>concernant le risque d'hospitalisation parmi les personnes non vaccinées, il croît avec l'âge; en comparaison aux autres personnes non vaccinées, le risque d'hospitalisation en soins critiques est multiplié par 2 chez les 60 - 79 ans. Quant au risque d'hospitalisation conventionnelle, il est maximal chez les 80 ans et plus.</li>
-        </ul>
-        <div>
-            <p class="underline-text">Risques relatifs de test positif symptomatique et d'hospitalisation selon l'âge chez les non-vaccinés</p>
-        </div>
-        <div class="courbe-vaccin">
-            <img src="/pictures/courbe3.png" alt="courbe risques relatifs de test positif symptomatique et d'hospitalisation selon l'âge chez les non vaccinés">
-        </div>
-    </main>
+    </div>
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
