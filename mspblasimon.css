@@ -4,10 +4,6 @@ body {
 }
 
 /* Header */
-.header {
-    background: ;
-}
-
 .logo {
     height: 12vw;
     max-width: 15vw;
@@ -59,21 +55,19 @@ body {
     padding-top: 2%;
 }
 
-.title, .title2 {
-    padding-bottom: 1%;
-}
 
 .title {
     font-weight: bold;
     font-size: 1.8em;
     color: #4561AA;
     text-align: center;
+    padding-bottom: 2%;
 }
 
 .title2 {
     font-size: 1.4em;
     padding-left: 3%;
-    color:;
+    padding-bottom: 1%;
 }
 
 .subtitle {
@@ -151,7 +145,7 @@ button.aside-button-aa2 > a {
 .sommaire {
     border: 2px solid #4561AA;
     width: 500px;
-    padding: 2%;
+    padding-top: 2%;
     font-size: 0.8em;
     margin: 0 auto;
     width: 80%;
@@ -170,7 +164,7 @@ table, td, th {
     border: 2px solid purple;
     font-size: 0.9em;
     width: 80%;
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -193,7 +187,7 @@ th, td {
     width: 260px;
     height: 300px;
     display: block;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 1vw;
     margin-bottom: 1vw;
 }
@@ -280,11 +274,25 @@ input[type='checkbox'] {
     border:2px solid #555; } 
 
 input[type='checkbox']:checked { 
-    background: ; 
+    background: #7e92c5; 
 } 
 
 .required-field-text {
     color: red;
+}
+
+/*liste collapse*/
+.btns-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.guard-list-btn, .med-list-btn {
+    border-color: #fbd916;
+    border-radius: 10px;
+    background-color: #f5eec8;
+    padding: 1%;
+    margin-top: 4vw;
 }
 
 /*Carte Google Maps*/
