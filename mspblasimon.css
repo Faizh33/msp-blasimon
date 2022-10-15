@@ -151,10 +151,23 @@ button.aside-button-aa2 > a {
     width: 80%;
     margin-top: 2%;
     margin-bottom: 2%;
+    background:#7e92c5;
+}
+
+.sommaire-title {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.4em;
+    text-decoration: underline;
 }
 
 div.sommaire  ul  li  a {
-    color: black;
+    color: white;
+}
+
+div.sommaire  ul  li {
+    list-style-type: none;
 }
 
 /* tableau */
