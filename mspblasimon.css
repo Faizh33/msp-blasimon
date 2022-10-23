@@ -346,3 +346,46 @@ input[type='checkbox']:checked {
     text-align: center;
     margin: 1vw;
 }
+
+/*footer*/
+#footer {
+    background:#fbd916;
+}
+
+.footer-menu {
+    justify-content: space-around;
+    padding-top: 1vw;
+}
+
+.footer-text {
+    font-size: 0.9em;
+    color: black;
+    padding: 2vw;
+    font-weight: bold;
+}
+
+.footer-text:hover {
+    color:rgba(0, 0, 0, 0.703);
+    text-decoration: none;
+}
+
+div.footer-copyright > p {
+    margin: 0 auto;
+    font-size: 0.7em;
+    font-style: italic;
+    padding-bottom: 1vw;
+}
+
+/*Scroll-top arrow*/
+#scrollUp {
+    position: fixed;
+    bottom : 10px;
+    right: -100px;
+    opacity: 0.5;
+}
+
+.bi-arrow-up-circle {
+    width: 5vw;
+    height: 5vw;
+    color: black;
+}
