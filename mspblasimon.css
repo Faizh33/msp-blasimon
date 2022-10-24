@@ -255,6 +255,10 @@ div.article-text > p > a {
     outline:none;
 }
 
+.input:focus, textarea:focus {
+    border: 3px solid #fbba16;
+}
+
 .form-text {
     padding-left: 1.5vw;
     font-size: 0.8em;
@@ -287,7 +291,7 @@ input[type='checkbox'] {
     border:2px solid #555; } 
 
 input[type='checkbox']:checked { 
-    background: #7e92c5; 
+    background: #fbba16; 
 } 
 
 .required-field-text {
